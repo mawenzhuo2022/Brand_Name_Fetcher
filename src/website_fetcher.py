@@ -5,54 +5,89 @@
 
 import requests
 from bs4 import BeautifulSoup
+import spacy
 import os
 import json
+import logging
+
+# 设置日志
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# 加载NLP模型
+nlp = spacy.load('en_core_web_sm')
+logging.info("NLP model loaded.")
 
 
-def get_brand_names_from_wikipedia(brand_page_url):
-    """
-    Fetches the brand names in various languages from a Wikipedia page.
-    Parameters:
-    - brand_page_url: The URL of the Wikipedia page to fetch.
-    Returns:
-    A dictionary with language codes as keys and brand names as values.
-    """
-    response = requests.get(brand_page_url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    interlanguage_links = soup.find_all('a', class_='interlanguage-link-target')
-    brand_names = {}
-    for link in interlanguage_links:
-        language_code = link['hreflang']
-        brand_name = link.text.strip()
-        brand_names[language_code] = brand_name
-    return brand_names
+def fetch_page(url):
+    """获取指定URL的HTML内容"""
+    try:
+        response = requests.get(url)
+        logging.info(f"Successfully fetched page: {url}")
+        return response.text
+    except requests.RequestException as e:
+        logging.error(f"Error fetching page {url}: {e}")
+        return None
 
+
+def extract_ner(text):
+    """使用spaCy从文本中提取专有名词"""
+    doc = nlp(text)
+    entities = [ent.text for ent in doc.ents if ent.label_ == 'ORG']
+    logging.info(f"Extracted {len(entities)} organizations.")
+    return entities
+
+
+def find_language_versions(name, languages=['en', 'zh']):
+    """查找维基百科中给定名称的不同语言版本的链接及其翻译"""
+    try:
+        search_url = f"https://en.wikipedia.org/wiki/{name.replace(' ', '_')}"
+        content = fetch_page(search_url)
+        if content:
+            soup = BeautifulSoup(content, 'html.parser')
+            versions = {}
+            for lang in languages:
+                lang_link = soup.find('a', class_='interlanguage-link-target', hreflang=lang)
+                if lang_link:
+                    lang_page = fetch_page(lang_link['href'])
+                    if lang_page:
+                        lang_soup = BeautifulSoup(lang_page, 'html.parser')
+                        lang_title = lang_soup.find('h1', id='firstHeading').text
+                        versions[lang] = {'url': lang_link['href'], 'title': lang_title}
+            logging.info(f"Found language versions for {name}: {versions}")
+            return versions
+        return {}
+    except Exception as e:
+        logging.error(f"Error processing {name}: {e}")
+        return {}
 
 def main():
     brands = {
         'Cisco': 'https://en.wikipedia.org/wiki/Cisco_Systems',
-        'Huawei': 'https://en.wikipedia.org/wiki/Huawei',
-        'H3C': 'https://en.wikipedia.org/wiki/H3C_Technologies',
-        'HP': 'https://en.wikipedia.org/wiki/HP_Inc.',
-        'Microsoft': 'https://en.wikipedia.org/wiki/Microsoft'
+        # 添加其他品牌如需要
     }
 
-    # Create the directory for storing results if it does not exist
     results_dir = '../dat/results'
     os.makedirs(results_dir, exist_ok=True)
+    logging.info("Results directory checked/created.")
 
-    # Fetching the brand names for each brand and save to file
     for brand, url in brands.items():
-        print(f"\nFetching names for brand: {brand}")
-        brand_names = get_brand_names_from_wikipedia(url)
+        logging.info(f"Starting processing for brand: {brand}")
+        html_content = fetch_page(url)
+        if html_content:
+            soup = BeautifulSoup(html_content, 'html.parser')
+            text = soup.get_text()
+            entities = extract_ner(text)
 
-        # Save results to a JSON file named after the brand
-        file_path = os.path.join(results_dir, f'{brand}.json')
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(brand_names, f, ensure_ascii=False, indent=4)
+            results = {}
+            for entity in entities:
+                links = find_language_versions(entity)
+                if links:
+                    results[entity] = links
 
-        print(f'Results for {brand} saved to {file_path}')
+            file_path = os.path.join(results_dir, f'{brand}.json')
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(results, f, ensure_ascii=False, indent=4)
+            logging.info(f"Results for {brand} saved to {file_path}")
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
