@@ -1,0 +1,13 @@
+Given a text file where the first line is the product name followed by a list of potential proprietary nouns associated with the product, perform the following tasks:
+1. Confirm and list all proprietary nouns that are directly related to the product mentioned in the first line. This includes nouns that describe features, components, or any aspect directly involving the product.
+2. For each confirmed proprietary noun, provide its name in both Chinese and English.
+3. For each noun, list all possible common names or terms as much as possible in both Chinese and English that people might use to refer to it. Ensure to include synonyms, abbreviations, and informal terms that are commonly used in both languages.
+4. Additionally, identify any terms that describe processes, technologies, or attributes specific to the product, such as "HarmonyOS" in Huawei products, and provide their names in both Chinese and English, along with common names or synonyms.
+Format the output starting with the original product name followed by a colon. Then, list the details for each confirmed proprietary noun and product-related term on new lines below, each entry starting with the noun or term followed by its details as described.
+
+Example:
+Product Name: [ProductName]
+- Proprietary Noun 1: [Chinese Name] / [English Name]
+  Common Names: [Name1], [Name2], ...
+- Technology/Process/Attribute 1: [Chinese Name] / [English Name]
+  Common Names: [TechName1], [TechName2], ...

@@ -66,7 +66,7 @@ def main():
         # 添加其他品牌如需要
     }
 
-    results_dir = '../dat/results'
+    results_dir = '../dat/fetched'
     os.makedirs(results_dir, exist_ok=True)
     logging.info("Results directory checked/created.")
 

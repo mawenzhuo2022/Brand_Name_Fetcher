@@ -1,0 +1,27 @@
+Product Name: Cisco
+- Cisco Systems: 思科系统 / Cisco Systems
+  Common Names: Cisco, Cisco Networking, Cisco Hardware
+- Webex: 思科Webex / Webex
+  Common Names: Webex, Cisco Webex, Webex Meetings
+- Linksys: 聯絡思科 / Linksys
+  Common Names: Linksys, Linksys Router
+- ASA: ASA / ASA
+  Common Names: Cisco ASA, Adaptive Security Appliance
+- TAO: TAO / TAO
+  Common Names: Tailored Access Operations, TAO Unit
+- ZoneAlarm: 防火牆 / ZoneAlarm
+  Common Names: ZoneAlarm, ZoneAlarm Firewall
+- ESR: ESR / ESR
+  Common Names: Enhanced Interior Gateway Routing Protocol, ESR Protocol
+- SDN: 软件定义网络 / Software Defined Networking
+  Common Names: SDN, SDN Technology
+- OpenDNS: 开放DNS / OpenDNS
+  Common Names: OpenDNS, OpenDNS Security
+- NCS: NCS / NCS
+  Common Names: Network Control System, Cisco NCS
+- Nexus: Nexus / Nexus
+  Common Names: Cisco Nexus, Nexus Switches
+- Meraki: Meraki / Meraki
+  Common Names: Cisco Meraki, Meraki Cloud Networking
+- AMP: AMP / AMP
+  Common Names: Advanced Malware Protection, Cisco AMP
