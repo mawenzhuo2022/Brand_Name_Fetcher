@@ -1,0 +1,70 @@
+# 操作系统产生的文件
+.DS_Store            # MacOS 文件系统产生
+Thumbs.db            # Windows 图像预览文件
+ehthumbs.db          # Windows 缩略图缓存
+Desktop.ini          # Windows 文件夹设置
+
+# 编辑器或IDE产生的文件
+/.vscode/            # Visual Studio Code 设置
+.idea/               # IntelliJ IDEA 设置
+*.sublime-workspace  # Sublime Text 工作空间
+*.sublime-project    # Sublime Text 项目文件
+
+# 依赖文件
+/node_modules/       # Node.js 模块文件夹
+/vendor/             # Composer 依赖文件夹(PHP)
+
+# 包管理器配置文件
+package-lock.json    # npm 包锁文件
+yarn.lock            # Yarn 包锁文件
+composer.lock        # Composer 包锁文件
+
+# 编译产生的文件
+*.o
+*.so
+*.exe
+*.dll
+*.class
+*.pyc
+*.jar
+
+# 打包产生的目录
+dist/
+build/
+out/
+release/
+
+# 日志文件
+*.log
+*.csv
+
+# 数据库文件
+*.db
+*.sql
+
+# 环境配置文件
+*.env
+.env.*
+!.env.example        # 通常保留一个.env示例文件
+
+# 个人密钥
+*.pem
+*.key
+
+# 虚拟环境文件
+.venv/
+env/
+ENV/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+
+# 其他常见忽略项
+.cache
+.sass-cache/
+.ccache
+.vs/
+*.swp
+*~
