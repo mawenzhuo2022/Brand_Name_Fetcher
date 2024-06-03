@@ -9,6 +9,7 @@ load_dotenv()
 # 用API密钥初始化OpenAI客户端
 client = openai.OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
+
 def extract_titles(json_path):
     """
     从指定的JSON文件中提取所有"title"字段。
@@ -17,6 +18,7 @@ def extract_titles(json_path):
         data = json.load(file)
     titles = [info['zh']['title'] for key, info in data.items() if 'zh' in info and 'title' in info['zh']]
     return titles
+
 
 def send_titles_to_gpt_api(titles, filename, system_prompt):
     """
@@ -38,6 +40,7 @@ def send_titles_to_gpt_api(titles, filename, system_prompt):
     except Exception as e:
         print(f"Error communicating with GPT API: {e}")
         return None
+
 
 def main():
     directory_path = '../dat/fetched/'

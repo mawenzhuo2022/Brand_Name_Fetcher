@@ -37,8 +37,11 @@ def extract_ner(text):
     return entities
 
 
-def find_language_versions(name, languages=['en', 'zh']):
+def find_language_versions(name, depth, max_depth=2, languages=['en', 'zh']):
     """查找维基百科中给定名称的不同语言版本的链接及其翻译"""
+    if depth > max_depth:
+        logging.info("Maximum depth reached, stopping recursion.")
+        return {}
     try:
         search_url = f"https://en.wikipedia.org/wiki/{name.replace(' ', '_')}"
         content = fetch_page(search_url)
@@ -60,10 +63,14 @@ def find_language_versions(name, languages=['en', 'zh']):
         logging.error(f"Error processing {name}: {e}")
         return {}
 
+
 def main():
     brands = {
-        'Cisco': 'https://en.wikipedia.org/wiki/Cisco_Systems',
-        # 添加其他品牌如需要
+        # 'Cisco': 'https://en.wikipedia.org/wiki/Cisco_Systems',
+        'H3C': 'https://en.wikipedia.org/wiki/H3C_Technologies',
+        # 'HP': 'https://en.wikipedia.org/wiki/HP_Inc.',
+        # 'Huawei': 'https://en.wikipedia.org/wiki/Huawei',
+        # 'Microsoft': 'https://en.wikipedia.org/wiki/Microsoft',
     }
 
     results_dir = '../dat/fetched'
@@ -80,7 +87,7 @@ def main():
 
             results = {}
             for entity in entities:
-                links = find_language_versions(entity)
+                links = find_language_versions(entity, depth=1)
                 if links:
                     results[entity] = links
 
