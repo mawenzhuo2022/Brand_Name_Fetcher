@@ -1,0 +1,9 @@
+Product Name: H3C
+- 维基百科 / Wikipedia
+  Common Names: Wikipedia
+- 维基文库 / Wikibooks
+  Common Names: Wikibooks
+- 维基新闻 / Wikinews
+  Common Names: Wikinews
+- 莫比尔 / Mobile
+  Common Names: Mobile
