@@ -1,0 +1,91 @@
+Product Name: Cisco
+- 思科系统 / Cisco
+  Common Names: Cisco Systems, Cisco Webex, Linksys
+- 美国国家安全局 / National Security Agency (NSA)
+  Common Names: NSA
+- 納斯達克100指數 / NASDAQ-100 Index
+  Common Names: NASDAQ
+- 局域网 / Local Area Network (LAN)
+  Common Names: LAN
+- 中央处理器 / Central Processing Unit (CPU)
+  Common Names: CPU
+- iOS / iOS
+  Common Names: iOS
+- 多协议标签交换 / Multiprotocol Label Switching (MPLS)
+  Common Names: MPLS
+- IP / IP
+  Common Names: IP
+- 催化 / Catalyst
+  Common Names: Catalyst
+- 阿爾卡特朗訊 / Alcatel-Lucent
+  Common Names: Alcatel-Lucent
+- WAN (消歧义) / Wide Area Network (WAN)
+  Common Names: WAN
+- 軟體定義廣域網路 / Software-Defined Wide Area Network (SD-WAN)
+  Common Names: SD-WAN
+- OpenDNS / OpenDNS
+  Common Names: OpenDNS
+- Microsoft Teams / Microsoft Teams
+  Common Names: Microsoft Teams
+- 人工智能 / Artificial Intelligence (AI)
+  Common Names: AI
+- 併購 / Mergers and Acquisitions (M&A)
+  Common Names: M&A
+- 简单邮件传输协议 / Simple Mail Transfer Protocol (SMTP)
+  Common Names: SMTP
+- 应用程序接口 / Application Programming Interface (API)
+  Common Names: API
+- 域名系统 / Domain Name System (DNS)
+  Common Names: DNS
+- 先锋领航 / Vanguard
+  Common Names: Vanguard
+- Fortune / Fortune
+  Common Names: Fortune
+- 自由软件基金会 / Free Software Foundation (FSF)
+  Common Names: FSF
+- GNU通用公共许可证 / GNU General Public License (GPL)
+  Common Names: GPL
+- ASA / ASA
+  Common Names: ASA
+- 特定入侵行動辦公室 / Tailored Access Operations (TAO)
+  Common Names: TAO
+- 美国证券交易委员会 / Securities and Exchange Commission (SEC)
+  Common Names: SEC
+- 可移植文档格式 / Portable Document Format (PDF)
+  Common Names: PDF
+- CNET / CNET
+  Common Names: CNET
+- 华尔街日报 / The Wall Street Journal
+  Common Names: Wall Street Journal
+- 道琼斯公司 / Dow Jones & Company
+  Common Names: Dow Jones
+- CNN商业 / CNN Business
+  Common Names: CNN Business
+- 纳斯达克 / NASDAQ
+  Common Names: NASDAQ
+- YouTube / YouTube
+  Common Names: YouTube
+- 网站时光机 / Wayback Machine
+  Common Names: Wayback Machine
+- TechCrunch / TechCrunch
+  Common Names: TechCrunch
+- 华为 / Huawei
+  Common Names: Huawei
+- SDN / Software-Defined Networking (SDN)
+  Common Names: SDN
+- 美通社 / Associated Press (AP)
+  Common Names: AP
+- GitHub / GitHub
+  Common Names: GitHub
+- 美国在线 / AOL
+  Common Names: AOL
+- 亚马孙 / Amazon
+  Common Names: Amazon
+- 美國運通 / American Express
+  Common Names: American Express
+- 比較 / Compare
+  Common Names: Compare
+- IBM / IBM
+  Common Names: IBM
+- GitHub / GitHub
+  Common Names: GitHub

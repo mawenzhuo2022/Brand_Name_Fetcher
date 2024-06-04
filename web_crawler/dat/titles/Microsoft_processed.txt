@@ -1,0 +1,39 @@
+Product Name: Microsoft
+- Windows XP: Windows XP / Windows XP
+  Common Names: XP
+- Xbox: Xbox / Xbox
+  Common Names: Xbox
+- Microsoft Azure: 微软Azure / Microsoft Azure
+  Common Names: Azure
+- Xbox One: Xbox One / Xbox One
+  Common Names: Xbox One
+- Outlook.com: Outlook.com / Outlook.com
+  Common Names: Outlook.com
+- Microsoft Edge: 微软Edge / Microsoft Edge
+  Common Names: Edge
+- Microsoft Windows: 微软Windows / Microsoft Windows
+  Common Names: Windows
+- OneDrive: OneDrive / OneDrive
+  Common Names: OneDrive
+- GitHub: GitHub / GitHub
+  Common Names: GitHub
+- Microsoft Surface: 微软Surface / Microsoft Surface
+  Common Names: Surface
+- Microsoft Office: 微软Office / Microsoft Office
+  Common Names: Office
+- Windows NT: Windows NT / Windows NT
+  Common Names: NT
+- Windows 3.0: Windows 3.0 / Windows 3.0
+  Common Names: Windows 3.0
+- Windows Phone: Windows Phone / Windows Phone
+  Common Names: Windows Phone
+- Windows Mobile: Windows Mobile / Windows Mobile
+  Common Names: Windows Mobile
+- Microsoft Lumia: 微软Lumia / Microsoft Lumia
+  Common Names: Lumia
+- PowerShell: PowerShell / PowerShell
+  Common Names: PowerShell
+- Microsoft Teams: 微软Teams / Microsoft Teams
+  Common Names: Teams
+- Skype: Skype / Skype
+  Common Names: Skype

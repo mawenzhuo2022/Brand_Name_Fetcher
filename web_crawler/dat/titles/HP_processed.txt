@@ -1,0 +1,96 @@
+Product Name: HP
+- HP: 惠普 / HP
+  Common Names: Hewlett-Packard, Hewlett Packard, HPE, Hewlett, Packard, HP Inc.
+
+- LaserJet: 惠普激光打印机 / HP LaserJet
+  Common Names: HP Laser Printer, Laser Printer
+
+- DeskJet: 惠普喷墨打印机 / DeskJet
+  Common Names: HP Inkjet Printer, Inkjet Printer
+
+- ProLiant: 惠普 ProLiant / HP ProLiant
+  Common Names: HP Server
+
+- EliteBook: 惠普 EliteBook / HP EliteBook
+  Common Names: HP Laptop
+
+- Indigo: 惠普 Indigo / HP Indigo
+  Common Names: HP Digital Press
+
+- TouchPad: 惠普 TouchPad / HP TouchPad
+  Common Names: HP Tablet
+
+- Beats: Beats / Beats
+  Common Names: Beats by Dre
+
+- Compaq: 康柏 / Compaq
+  Common Names: Compaq Computer
+
+- MPE: MPE / MPE
+  Common Names: Multi-Programming Executive
+
+- UNIX: UNIX / UNIX
+  Common Names: Unix
+
+- Polycom: Polycom / Polycom
+  Common Names: Polycom Inc.
+
+- NetApp: NetApp / NetApp
+  Common Names: Network Appliance
+
+- IBM: IBM / IBM
+  Common Names: International Business Machines Corporation
+
+- Acer: 宏碁 / Acer
+  Common Names: Acer Inc.
+
+- LG: LG / LG
+  Common Names: LG Corporation
+
+- Microsoft: 微软 / Microsoft
+  Common Names: MS, Microsoft Corporation
+
+- Google: 谷歌 / Google
+  Common Names: Alphabet Inc.
+
+- Intel: 英特尔 / Intel
+  Common Names: Intel Corporation
+
+- NVIDIA: 英伟达 / NVIDIA
+  Common Names: NVIDIA Corporation
+
+- Qualcomm: 高通 / Qualcomm
+  Common Names: Qualcomm Inc.
+
+- Apple: 苹果 / Apple
+  Common Names: Apple Inc.
+
+- Samsung: 三星 / Samsung
+  Common Names: Samsung Group
+
+- Sony: 索尼 / Sony
+  Common Names: Sony Corporation
+
+- Toshiba: 东芝 / Toshiba
+  Common Names: Toshiba Corporation
+
+- Fujitsu: 富士通 / Fujitsu
+  Common Names: Fujitsu Limited
+
+- Sharp: 夏普 / Sharp
+  Common Names: Sharp Corporation
+
+- Motorola: 摩托罗拉 / Motorola
+  Common Names: Motorola Inc.
+
+- Oracle: 甲骨文 / Oracle
+  Common Names: Oracle Corporation
+
+- Atmel: Atmel / Atmel
+  Common Names: Atmel Corporation
+
+- Texas Instruments: 德州仪器 / Texas Instruments
+  Common Names: TI, Texas Instruments Inc.
+
+- Google: 谷歌 / Google
+  Common Names: Alphabet Inc.

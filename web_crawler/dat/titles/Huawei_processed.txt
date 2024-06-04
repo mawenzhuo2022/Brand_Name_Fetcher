@@ -1,0 +1,31 @@
+Product Name: Huawei
+- EMUI: EMUI / EMUI
+  Common Names: Emotion UI
+- LiteOS: LiteOS / LiteOS
+  Common Names: Light OS
+- OpenHarmony: OpenHarmony / OpenHarmony
+  Common Names: Open Harmony
+- GMS: GMS / GMS
+  Common Names: Google Mobile Services
+- Huawei Mate Series: 华为Mate系列 / Huawei Mate Series
+  Common Names: Mate Series
+- HarmonyOS: 鸿蒙 (操作系统) / HarmonyOS
+  Common Names: Hongmeng OS
+- Huawei Mobile Services: 华为移动服务 / Huawei Mobile Services
+  Common Names: HMS
+- Huawei AppGallery: 华为应用市场 / Huawei AppGallery
+  Common Names: AppGallery
+- Huawei Cloud: 华为云 / Huawei Cloud
+  Common Names: Huawei Cloud
+- Huawei HiSilicon: 海思 / HiSilicon
+  Common Names: HiSilicon
+- Huawei Kirin: 麒麟 / Kirin
+  Common Names: Kirin
+- Huawei Ascend: 华为昇腾 / Huawei Ascend
+  Common Names: Ascend
+- Huawei Share: 和声 / Huawei Share
+  Common Names: OneHop
+- Huawei 5G: 华为5G / Huawei 5G
+  Common Names: 5G
+- Huawei P40: P40 / P40
+  Common Names: P40
