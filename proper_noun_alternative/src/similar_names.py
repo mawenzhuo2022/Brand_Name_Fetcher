@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 # @Author: Wenzhuo Ma
 # @Time: 2024/6/4 13:28
-# @Description: This script processes data from CSV files by querying the OpenAI GPT API.
-# It reads each non-empty title from the second column of CSV files, sends it to the GPT API,
-# and then saves the enriched data as JSON format in the specified output directory.
+# @Description: This script asynchronously processes CSV files by querying the OpenAI GPT API.
+# It extracts non-empty titles from the second column of CSV files, sends each title to the GPT API,
+# processes the returned synonyms, and saves the enriched data as JSON in a specified output directory.
+# This approach is designed to efficiently handle large datasets and reduce processing time.
 
 import csv
 import json
@@ -15,29 +16,30 @@ from dotenv import load_dotenv
 import openai
 import logging
 
-# Setup basic logging configuration
+# Configure logging to output timestamped messages at INFO level, aiding in debugging and system monitoring
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Load environment variables
+# Load API key from environment variable for security reasons
 load_dotenv()
 client = openai.OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 
 async def send_title_to_gpt_api(session, title, filename, system_prompt, custom_prompt_suffixes):
-    """Sends individual title to the GPT API and returns the processed response.
+    """
+    Asynchronously sends a title to the OpenAI GPT API and processes the response.
 
     Args:
-        session (ClientSession): The aiohttp session.
-        title (str): The title to process.
-        filename (str): The filename used to determine the prompt customization.
-        system_prompt (str): Base system prompt for GPT.
-        custom_prompt_suffixes (dict): Contains custom suffixes for system prompts.
+        session (aiohttp.ClientSession): Active session to handle HTTP requests.
+        title (str): The title extracted from the CSV file.
+        filename (str): The base name of the input file, used to customize prompts if necessary.
+        system_prompt (str): The default prompt template for the GPT API call.
+        custom_prompt_suffixes (dict): Optional suffixes to append to the system prompt based on filename.
 
     Returns:
-        dict: A dictionary with the original title as key and the list of processed titles as value.
+        dict: A dictionary with processed synonyms if API call is successful; None if an error occurs.
     """
     if not title:
-        logging.info(f"Skipping empty title.")
+        logging.info("Skipping empty title.")
         return None
 
     filename_key = filename.replace('.json', '')
@@ -45,7 +47,7 @@ async def send_title_to_gpt_api(session, title, filename, system_prompt, custom_
     full_system_prompt = system_prompt + custom_prompt
     user_prompt_content = f"({filename_key}) title:\n" + title
 
-    logging.info(f"Sending to GPT API: {user_prompt_content}")
+    logging.info(f"Sending '{title}' to GPT API using prompt: {user_prompt_content}")
 
     try:
         response = client.chat.completions.create(
@@ -57,70 +59,76 @@ async def send_title_to_gpt_api(session, title, filename, system_prompt, custom_
             temperature=0.6
         )
         content = response.choices[0].message.content.strip()
-        split_content = [line.strip() for line in content.split('\n') if line.strip()]
-        logging.info(f"Received processed content for '{title}'.")
-        return {title: split_content}
+        synonyms = [line.strip() for line in content.split('\n') if line.strip()]
+        logging.info(f"Received synonyms for '{title}'.")
+        return {
+            "metric_id": filename_key,
+            "synonyms": synonyms,
+            "display_name": "Default Display Name",
+            "metadatas": {"cit": "Default CIT", "category": "Performance"}
+        }
     except Exception as e:
-        logging.error(f"Error communicating with GPT API for title '{title}': {e}")
-        return {title: None}
+        logging.error(f"Failed to process '{title}' with error: {e}")
+        return None
 
 
 async def process_csv_and_call_gpt(session, input_file, system_prompt, custom_prompt_suffixes):
-    """Processes each CSV file, sends each title to the GPT API, and gathers results.
+    """
+    Processes each CSV file, sending titles to the GPT API and compiling results.
 
     Args:
-        session (ClientSession): The aiohttp session.
-        input_file (str): Path to the input CSV file.
-        system_prompt (str): Base system prompt for GPT.
-        custom_prompt_suffixes (dict): Contains custom suffixes for system prompts.
+        session (aiohttp.ClientSession): Session object for making HTTP requests.
+        input_file (str): Path to the CSV file to be processed.
+        system_prompt (str): Default prompt for GPT API interaction.
+        custom_prompt_suffixes (dict): Custom suffixes for prompts based on file specifics.
+
+    Returns:
+        List[dict]: List of dictionaries with the results from the GPT API for each title.
     """
-    tasks = []
+    results = []
     with open(input_file, newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip the header
+        next(reader)  # Skip the header to start processing actual data
         for row in reader:
             if row and len(row) > 1 and row[1].strip():
-                task = send_title_to_gpt_api(session, row[1], input_file.stem + '.json', system_prompt,
-                                             custom_prompt_suffixes)
-                tasks.append(task)
+                result = await send_title_to_gpt_api(session, row[1], input_file.stem, system_prompt,
+                                                     custom_prompt_suffixes)
+                if result:
+                    results.append(result)
 
-    results = await asyncio.gather(*tasks, return_exceptions=True)
-    data = {}
-    for result in results:
-        if result:
-            data.update(result)
-
-    logging.info(f"Processed file '{input_file}' with {len(tasks)} titles.")
-    return data
+    logging.info(f"Completed processing '{input_file}'. Processed {len(results)} entries.")
+    return results
 
 
 async def process_all_csvs(input_dir, output_dir, system_prompt):
-    """Processes all CSV files in the given directory and saves the results as JSON files.
+    """
+    Initiates processing of all CSV files in a directory and saves results as JSON files.
 
     Args:
-        input_dir (str): Directory containing CSV files.
-        output_dir (str): Directory to save output JSON files.
-        system_prompt (str): Base system prompt for GPT.
+        input_dir (str): Directory containing the CSV files.
+        output_dir (str): Directory where JSON results will be saved.
+        system_prompt (str): Default GPT system prompt for generating responses.
     """
-    custom_prompt_suffixes = {}
     async with aiohttp.ClientSession() as session:
         for input_file in Path(input_dir).glob('*.csv'):
-            data = await process_csv_and_call_gpt(session, input_file, system_prompt, custom_prompt_suffixes)
-            output_file = Path(output_dir) / (input_file.stem + ".json")
+            results = await process_csv_and_call_gpt(session, input_file, system_prompt, custom_prompt_suffixes={})
+            output_file = Path(output_dir) / f"{input_file.stem}.json"
             with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-            logging.info(f"Saved JSON file: {output_file}")
+                json.dump(results, f, ensure_ascii=False, indent=4)
+            logging.info(f"Output saved to '{output_file}'.")
 
 
 async def main():
-    """Main function to setup and run the processing tasks."""
+    """
+    Main function to set up and execute the data processing tasks.
+    """
     system_prompt_path = "../dat/prompt/system_prompt.txt"
     input_dir = "../dat/raw_data/"
     output_dir = "../dat/result/"
-    with open(system_prompt_path, 'r') as file:
+    with open(system_prompt_path, 'r', encoding='utf-8') as file:  # Specify encoding here
         system_prompt = file.read().strip()
     await process_all_csvs(input_dir, output_dir, system_prompt)
 
-
 if __name__ == "__main__":
     asyncio.run(main())
+

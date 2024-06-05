@@ -1,0 +1,5 @@
+指标,名称,描述
+HCOctets,传输字节数,传输字节数
+TotalSessions,总会话数,总会话数
+CurrSessions,当前会话数,当前会话数
+HighestSessions,最高会话数,最高会话数

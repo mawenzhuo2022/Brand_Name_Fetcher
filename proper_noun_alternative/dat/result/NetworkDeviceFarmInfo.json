@@ -1,0 +1,23 @@
+[
+    {
+        "metric_id": "NetworkDeviceFarmInfo",
+        "synonyms": [
+            "ConnectionCount",
+            "FarmConnections",
+            "TotalConnections",
+            "DeviceFarmConnections",
+            "FarmLinkCount",
+            "FarmConnectionTotal",
+            "DeviceFarmLinkTotal",
+            "TotalDeviceConnections",
+            "Farm连接数",
+            "设备连接总数",
+            "连接总数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

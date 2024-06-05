@@ -1,0 +1,2 @@
+指标,名称,描述
+ospfNbrState,ospf邻居状态,"OSPF邻居关系状态:1-down,2-attempt,3-init,4-twoWay,5-exchangeStart,6-exchange,7-loading,8-full"

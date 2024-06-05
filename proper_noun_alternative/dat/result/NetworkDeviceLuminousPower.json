@@ -1,0 +1,122 @@
+[
+    {
+        "metric_id": "NetworkDeviceLuminousPower",
+        "synonyms": [
+            "CurrentTransmitPower",
+            "CurrentPowerOutput",
+            "PowerTransmit",
+            "PowerOutput",
+            "TransmitPower",
+            "TransmittingPower",
+            "PowerSending",
+            "SendingPower",
+            "LuminousPower",
+            "DeviceLuminousPower",
+            "当前发送功率",
+            "现行发射功率",
+            "发射功率",
+            "发送功率",
+            "光功率",
+            "设备光功率",
+            "当前光功率",
+            "光输出",
+            "发送光功率",
+            "发射光功率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceLuminousPower",
+        "synonyms": [
+            "ReceivePower",
+            "RxPower",
+            "OpticalPower",
+            "InputPower",
+            "DetectorPower",
+            "SignalPower",
+            "LightPower",
+            "PowerIn",
+            "PowerReceived",
+            "PowerLevel",
+            "接收功率",
+            "接收光功率",
+            "光功率输入",
+            "探测器功率",
+            "信号功率",
+            "光功率",
+            "输入功率",
+            "光功",
+            "接收电力",
+            "电力水平"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceLuminousPower",
+        "synonyms": [
+            "Default",
+            "Receive",
+            "Power",
+            "Limit",
+            "Threshold",
+            "Minimum",
+            "Lower",
+            "Luminous",
+            "Device",
+            "Network",
+            "默认",
+            "接收",
+            "功率",
+            "下限",
+            "阈值",
+            "最小",
+            "较低",
+            "发光",
+            "设备",
+            "网络"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceLuminousPower",
+        "synonyms": [
+            "LowPowerWarning",
+            "PowerAlert",
+            "LowPowerAlarm",
+            "PowerThresholdAlert",
+            "LowPowerNotification",
+            "PowerLevelWarning",
+            "PowerInsufficientWarning",
+            "PowerLowAlert",
+            "PowerShortageAlert",
+            "PowerLowThreshold",
+            "电力警告",
+            "电力阈值警告",
+            "功率不足警告",
+            "电力警报",
+            "低功率通知",
+            "功率不足通知",
+            "低电力报警",
+            "电力阈值过低",
+            "电力不足警报",
+            "电力低阈值"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

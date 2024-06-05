@@ -1,0 +1,32 @@
+[
+    {
+        "metric_id": "NetworkDeviceServerInfo",
+        "synonyms": [
+            "Host Connections",
+            "Device Connections",
+            "Server Connections",
+            "Network Connections",
+            "Connections",
+            "Hosts",
+            "Devices",
+            "Servers",
+            "Networks",
+            "Endpoints",
+            "主机连接数",
+            "设备连接数",
+            "服务器连接数",
+            "网络连接数",
+            "连接数",
+            "主机数",
+            "设备数",
+            "服务器数",
+            "网络数",
+            "端点"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

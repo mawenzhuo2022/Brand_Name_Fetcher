@@ -1,0 +1,1205 @@
+[
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Port Index",
+            "Interface Index",
+            "Connection Index",
+            "Device Port",
+            "Network Port",
+            "Port Identifier",
+            "Port Number",
+            "Port Code",
+            "Port Position",
+            "Port Location",
+            "端口编号",
+            "接口索引",
+            "连接索引",
+            "设备端口",
+            "网络端口",
+            "端口标识符",
+            "端口号码",
+            "端口代码",
+            "端口位置",
+            "端口位置"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortStatusName",
+            "PortStatus",
+            "LinkStatus",
+            "InterfaceStatus",
+            "OperationalStatus",
+            "ConnectionStatus",
+            "PortState",
+            "PortCondition",
+            "PortHealth",
+            "PortAvailability",
+            "端口状态名称",
+            "端口状态",
+            "链接状态",
+            "接口状态",
+            "运行状态",
+            "连接状态",
+            "端口状态",
+            "端口条件",
+            "端口健康",
+            "端口可用性"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PacketLossRate",
+            "PacketLossRatio",
+            "LossRate",
+            "LossRatio",
+            "ErrorRate",
+            "ErrorRatio",
+            "DropRate",
+            "DropRatio",
+            "MissRate",
+            "MissRatio",
+            "丢包率",
+            "丢包比率",
+            "错误率",
+            "错误比率",
+            "丢失率",
+            "丢失比率",
+            "掉包率",
+            "掉包比率",
+            "遗漏率",
+            "遗漏比率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "AverageFrameLength",
+            "AvgFrameLen",
+            "MeanFrameSize",
+            "FrameSizeMean",
+            "FrameAvgLen",
+            "FrameLengthAvg",
+            "FrameSizeAverage",
+            "FrameLenAverage",
+            "FrameAverageLength",
+            "FrameAvgLength",
+            "平均帧长度",
+            "平均帧大小",
+            "帧平均尺寸",
+            "平均帧尺寸",
+            "帧长度平均值",
+            "帧大小平均值",
+            "平均帧尺度",
+            "帧尺寸平均值",
+            "帧平均长度",
+            "帧平均尺寸"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortType",
+            "PortCategory",
+            "InterfaceType",
+            "ConnectionType",
+            "PortStyle",
+            "PortKind",
+            "PortFormat",
+            "PortRole",
+            "PortSpecification",
+            "PortInterface",
+            "端口类型",
+            "接口类型",
+            "连接类型",
+            "端口样式",
+            "端口种类",
+            "端口格式",
+            "端口角色",
+            "端口规范",
+            "端口接口",
+            "端口分类"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "MAC Address",
+            "Hardware Address",
+            "Ethernet Address",
+            "NIC Address",
+            "MAC",
+            "Hardware MAC",
+            "Ethernet MAC",
+            "NIC MAC",
+            "物理地址",
+            "MAC 地址",
+            "硬件地址",
+            "以太网地址",
+            "网卡地址"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Outbound Traffic",
+            "Egress Traffic",
+            "Transmit Traffic",
+            "Output Traffic",
+            "Sending Traffic",
+            "Outgoing Traffic",
+            "Egress Data",
+            "Transmit Data",
+            "Output Data",
+            "Sending Data",
+            "发送流量",
+            "出流量",
+            "出帧",
+            "传输流量",
+            "发送数据",
+            "出数据",
+            "传出流量",
+            "发出流量",
+            "输出数据",
+            "传输数据"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortStatus",
+            "InterfaceStatus",
+            "ConnectionStatus",
+            "LinkStatus",
+            "PortHealth",
+            "PortCondition",
+            "PortState",
+            "PortAvailability",
+            "PortOperational",
+            "PortConnection",
+            "端口状态",
+            "接口状态",
+            "连接状态",
+            "链路状态",
+            "端口健康",
+            "端口条件",
+            "端口状态",
+            "端口可用性",
+            "端口操作",
+            "端口连接"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "MulticastPacketCount",
+            "McastPktCount",
+            "GroupcastPacketNumber",
+            "GroupcastPackets",
+            "MC Packet Count",
+            "Multicast包数量",
+            "组播数据包计数",
+            "组播数据包数",
+            "多播包数",
+            "多播数据包数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortAdminStatusName",
+            "PortAdminStatus",
+            "PortAdminState",
+            "PortAdminMode",
+            "PortAdmin",
+            "PortManagementStatus",
+            "PortManagementState",
+            "PortManagementMode",
+            "PortManagement",
+            "PortControlStatus",
+            "端口管理状态名称",
+            "端口管理状态",
+            "端口管理状态值",
+            "端口管理模式",
+            "端口管理",
+            "管理状态名称",
+            "管理状态",
+            "管理模式",
+            "管理",
+            "控制状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "ReceiveBroadcastPacketCount",
+            "ReceiveBroadcastPacketNumber",
+            "ReceiveBroadcastPacketTotal",
+            "ReceiveBroadcastPacketQuantity",
+            "ReceiveBroadcastPacketVolume",
+            "ReceiveBroadcastPacketAmount",
+            "ReceiveBroadcastPacketValue",
+            "ReceiveBroadcastPacketTotalCount",
+            "ReceiveBroadcastPacketTotalNumber",
+            "ReceiveBroadcastPacketTotalQuantity",
+            "接收广播包数量",
+            "接收广播包数",
+            "接收广播包总数",
+            "接收广播包数量",
+            "接收广播包总量",
+            "接收广播包数量",
+            "接收广播包值",
+            "接收广播包总数",
+            "接收广播包总数",
+            "接收广播包总量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "AverageFrameLength",
+            "AvgFrameLen",
+            "FrameSize",
+            "MeanFrameSize",
+            "AveragePacketSize",
+            "AverageFrameSize",
+            "FrameLength",
+            "AvgFrameLength",
+            "FrameAvgLen",
+            "MeanPacketSize",
+            "平均帧长度",
+            "平均包长度",
+            "帧平均长度",
+            "平均帧大小",
+            "帧长度均值",
+            "帧大小平均值",
+            "平均数据包大小",
+            "帧尺寸平均值",
+            "平均封包大小",
+            "帧均长"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Port",
+            "Interface",
+            "Connector",
+            "Socket",
+            "Jack",
+            "Link",
+            "Terminal",
+            "Gateway",
+            "Plug",
+            "Port Name",
+            "端口",
+            "接口",
+            "连接器",
+            "插座",
+            "插孔",
+            "链接",
+            "终端",
+            "网关",
+            "插头",
+            "端口名称"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "TotalTraffic",
+            "OverallUsage",
+            "AggregateThroughput",
+            "CumulativeBandwidth",
+            "CompleteDataTransfer",
+            "NetFlowSummation",
+            "CombinedDataVolume",
+            "TotalDataTransfer",
+            "TotalTrafficVolume",
+            "TotalDataUsage",
+            "总流量",
+            "整体使用量",
+            "聚合吞吐量",
+            "累积带宽",
+            "完整数据传输",
+            "网络流总和",
+            "合并数据量",
+            "总数据传输",
+            "总流量体积",
+            "总数据使用量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "FrameTraffic",
+            "FrameRate",
+            "NetworkTraffic",
+            "NetworkLoad",
+            "PacketFlow",
+            "DataFlow",
+            "DataTransfer",
+            "DataRate",
+            "DataUsage",
+            "NetworkUsage",
+            "帧流",
+            "帧速率",
+            "网络流量",
+            "网络负载",
+            "数据流",
+            "数据传输",
+            "数据速率",
+            "数据使用量",
+            "网络使用量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "BroadcastPacketCount",
+            "BroadcastPackets",
+            "Broadcasts",
+            "BroadcastCount",
+            "BcastPacketCount",
+            "BcastPackets",
+            "BcastCount",
+            "MulticastPacketCount",
+            "MulticastPackets",
+            "Multicasts",
+            "广播包数",
+            "广播数据包",
+            "广播量",
+            "广播计数",
+            "广播数据包数",
+            "广播数据包",
+            "广播计数",
+            "多播包数",
+            "多播数据包",
+            "多播"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PacketLoss",
+            "DroppedPackets",
+            "LostPackets",
+            "PacketLoss",
+            "DroppedPackets",
+            "LostPackets",
+            "Packet Loss Count",
+            "Packet Loss Number",
+            "Packet Drop Count",
+            "Packet Drop Number",
+            "PacketLoss",
+            "DroppedPackets",
+            "LostPackets",
+            "Packet Loss Count",
+            "Packet Loss Number",
+            "Packet Drop Count",
+            "Packet Drop Number",
+            "丢包数量",
+            "丢包计数",
+            "丢包数目",
+            "数据包丢失",
+            "数据包丢失计数",
+            "数据包丢失数",
+            "丢包数量",
+            "丢包计数",
+            "丢包数目",
+            "数据包丢失",
+            "数据包丢失计数",
+            "数据包丢失数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "ReceiveMulticastPacketCount",
+            "MulticastPacketReceived",
+            "MulticastPacketCount",
+            "MulticastPacketRecv",
+            "MulticastPacketNumber",
+            "GetMulticastPacket",
+            "ObtainMulticastPacketCount",
+            "FetchMulticastPacketNumber",
+            "QueryMulticastPacketCount",
+            "RetrieveMulticastPacket",
+            "接收组播数据包数",
+            "组播数据包接收",
+            "组播包计数",
+            "组播数据包接收数",
+            "获取组播数据包",
+            "获得组播数据包数",
+            "检索组播数据包计数",
+            "查询组播数据包数量",
+            "获取组播包数",
+            "获取组播包数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "BandwidthUsageRatio",
+            "BandwidthUtilization",
+            "Network Traffic Ratio",
+            "Bandwidth Occupancy Ratio",
+            "Bandwidth Usage Percentage",
+            "Bandwidth Usage Ratio",
+            "Network Load Ratio",
+            "Network Utilization Ratio",
+            "Bandwidth Consumption Ratio",
+            "Network Bandwidth Usage",
+            "带宽使用比率",
+            "带宽利用率",
+            "网络流量比率",
+            "带宽占用率",
+            "带宽使用百分比",
+            "带宽使用比例",
+            "网络负载比率",
+            "网络利用率",
+            "带宽消耗比率",
+            "网络带宽使用"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "FrameTraffic",
+            "Frame",
+            "Packet",
+            "Data",
+            "NetworkTraffic",
+            "InterfaceTraffic",
+            "NetworkData",
+            "NetworkFrame",
+            "InterfaceData",
+            "Traffic",
+            "帧流量",
+            "数据包",
+            "网络流量",
+            "接口流量",
+            "网络数据",
+            "帧数据",
+            "数据"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "ErrorPackets",
+            "ErrorFrames",
+            "ErrorCount",
+            "FaultPackets",
+            "FaultFrames",
+            "FaultCount",
+            "PacketErrors",
+            "FrameErrors",
+            "PacketFaults",
+            "FrameFaults",
+            "错误包数",
+            "错误帧数",
+            "故障包数",
+            "故障帧数",
+            "包错误数",
+            "帧错误数",
+            "包故障数",
+            "帧故障数",
+            "错误计数",
+            "故障计数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "AverageFrameLength",
+            "AvgFrameLen",
+            "FrameLenAvg",
+            "FrameLengthAverage",
+            "FrameAvgLen",
+            "AvgFrameLength",
+            "AvgLenFrame",
+            "AverageLenFrame",
+            "Average Frame Length",
+            "Avg Frame Len",
+            "平均帧长度",
+            "帧长平均",
+            "平均帧长",
+            "帧长度平均",
+            "平均长度帧",
+            "帧平均长度",
+            "平均帧长",
+            "帧长平均值",
+            "平均帧长度值",
+            "帧长度均值"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PacketLossRate",
+            "PacketLoss",
+            "LostPackets",
+            "DropRate",
+            "LossRate",
+            "LossPercentage",
+            "DroppedPackets",
+            "ErrorRate",
+            "PacketErrorRate",
+            "MissedPackets",
+            "丢包率",
+            "数据包丢失率",
+            "丢包数",
+            "丢包率",
+            "丢包百分比",
+            "丢弃数据包",
+            "错误率",
+            "数据包错误率",
+            "错包率",
+            "丢包率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "SendBroadcastCount",
+            "TransmitBroadcastPacketCount",
+            "BroadcastPacketSent",
+            "BroadcastTxCount",
+            "SendBroadcastFrame",
+            "BroadcastFrameTransmitted",
+            "BroadcastPacketTx",
+            "BroadcastFrameSent",
+            "BroadcastTxPacketCount",
+            "TransmitBroadcastFrameCount",
+            "发送广播包数",
+            "广播包发送计数",
+            "发送广播帧",
+            "广播帧传输",
+            "广播包发送",
+            "广播帧发送",
+            "广播发送计数",
+            "发送广播数据包",
+            "广播帧计数",
+            "传输广播数据包"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortTotalBytes",
+            "PortByteCount",
+            "TotalDataBytes",
+            "InterfaceTotalBytes",
+            "NetworkDeviceTotalBytes",
+            "ScalarPortBytes",
+            "Port数据量",
+            "端口字节数",
+            "总字节数",
+            "接口总字节数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortAdminState",
+            "PortAdminStatus",
+            "InterfaceAdminState",
+            "InterfaceAdminStatus",
+            "NetworkInterfaceAdminState",
+            "NetworkInterfaceAdminStatus",
+            "DeviceInterfaceAdminState",
+            "DeviceInterfaceAdminStatus",
+            "PortManagementState",
+            "PortManagementStatus",
+            "端口管理状态",
+            "端口管理状态",
+            "接口管理状态",
+            "接口管理状态",
+            "网络接口管理状态",
+            "网络接口管理状态",
+            "设备接口管理状态",
+            "设备接口管理状态",
+            "端口管理状态",
+            "端口管理状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "BandwidthUsageRatio",
+            "BWUtilization",
+            "NetworkUtilization",
+            "TrafficUsageRatio",
+            "BandwidthOccupancyRatio",
+            "LinkUtilization",
+            "LinkOccupancyRatio",
+            "BandwidthUsagePercentage",
+            "NetworkOccupancyRatio",
+            "TrafficUtilizationRatio",
+            "带宽使用比率",
+            "带宽利用率",
+            "网络利用率",
+            "流量使用比率",
+            "带宽占用比率",
+            "链路利用率",
+            "链路占用比率",
+            "带宽使用百分比",
+            "网络占用比率",
+            "流量利用率比率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "BandwidthUsageRatio",
+            "BandwidthOccupancyPercentage",
+            "Network Utilization Ratio",
+            "Traffic Occupancy Rate",
+            "Bandwidth Utilization Percentage",
+            "Network Load Ratio",
+            "Bandwidth Consumption Ratio",
+            "Network Traffic Usage Ratio",
+            "Bandwidth Occupancy Ratio",
+            "NetworkDeviceInterfaceScalar",
+            "带宽使用比",
+            "带宽占用率",
+            "网络利用率",
+            "流量占用率",
+            "带宽利用率",
+            "网络负载比",
+            "带宽消耗比",
+            "网络流量使用比",
+            "带宽占用比",
+            "网络设备接口标量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "ReceiveDropCount",
+            "RcvDropCnt",
+            "IngressDrop",
+            "InputDrop",
+            "InDiscards",
+            "ReceiveDiscards",
+            "ReceivePacketDiscards",
+            "ReceivePacketDrops",
+            "IngressPacketDrops",
+            "IngressPacketDiscards",
+            "接收丢包数",
+            "接收丢包",
+            "入包丢弃数",
+            "输入丢弃",
+            "输入丢弃数",
+            "入包丢弃",
+            "入包丢包数",
+            "入包丢包",
+            "入向丢包",
+            "入向丢弃"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Maximum Transmission Unit",
+            "MTU",
+            "Packet Size",
+            "Frame Size",
+            "Jumbo Frames",
+            "Ethernet MTU",
+            "Network MTU",
+            "Data Unit Size",
+            "NetworkDeviceInterfaceScalar",
+            "NDIS MTU",
+            "最大传输单元",
+            "最大传输单元大小",
+            "最大数据包大小",
+            "数据包大小上限",
+            "最大帧大小",
+            "网络传输单元",
+            "网络数据包大小",
+            "数据单元大小",
+            "网络设备接口标量",
+            "NDIS最大传输单元"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Port Connection Status",
+            "Link Status",
+            "Interface Status",
+            "Connection State",
+            "Port State",
+            "Port Link Status",
+            "Network Port Status",
+            "Device Interface Status",
+            "Scalar Port Status",
+            "Scalar Interface Status",
+            "端口连接状态",
+            "链路状态",
+            "接口状态",
+            "连接状态",
+            "端口状态",
+            "端口链路状态",
+            "网络端口状态",
+            "设备接口状态",
+            "标量端口状态",
+            "标量接口状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortRate",
+            "InterfaceSpeed",
+            "LinkSpeed",
+            "Bandwidth",
+            "DataRate",
+            "PortSpeed",
+            "Speed",
+            "Rate",
+            "Throughput",
+            "ConnectionSpeed",
+            "端口速率",
+            "接口速度",
+            "链路速度",
+            "带宽",
+            "数据速率",
+            "端口速度",
+            "速度",
+            "速率",
+            "吞吐量",
+            "连接速度"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PacketErrors",
+            "Network Errors",
+            "Interface Errors",
+            "Error Count",
+            "Error Packets",
+            "Error Frames",
+            "Error Packets Count",
+            "Error Frames Count",
+            "Error Packets Number",
+            "Error Frames Number",
+            "错误包",
+            "网络错误",
+            "接口错误",
+            "错误计数",
+            "错误包",
+            "错误帧",
+            "错误包计数",
+            "错误帧计数",
+            "错误包数量",
+            "错误帧数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "ReceiveMulticastPacketCount",
+            "MulticastPacketReceived",
+            "MulticastPacketCount",
+            "InboundMulticastPacket",
+            "MulticastPacketsIn",
+            "CountOfReceivedMulticastPackets",
+            "ReceiveIGMPPacketCount",
+            "IGMPPacketReceived",
+            "ReceiveMulticastData",
+            "MulticastDataReceived",
+            "接收组播数据包数",
+            "组播数据包接收数",
+            "入组播数据包数量",
+            "接收组播数据",
+            "组播数据包接收",
+            "接收IGMP数据包数",
+            "IGMP数据包接收数",
+            "接收组播数据",
+            "组播数据接收"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Loss",
+            "Dropped",
+            "Packets",
+            "Count",
+            "Error",
+            "Discard",
+            "Drops",
+            "PacketLoss",
+            "PacketDrop",
+            "PacketCount",
+            "丢包",
+            "掉包",
+            "包数",
+            "错误",
+            "丢弃",
+            "丢失",
+            "丢包数",
+            "包丢失",
+            "包丢弃",
+            "包数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "FriendlyTypeName",
+            "DisplayName",
+            "UserFriendlyName",
+            "UserLabel",
+            "UserType",
+            "UserTypeIdentifier",
+            "UserTypeLabel",
+            "UserTypeString",
+            "UserTypeDescription",
+            "UserTypeDisplayName",
+            "友好类型名称",
+            "显示名称",
+            "用户友好名称",
+            "用户标签",
+            "用户类型",
+            "用户类型标识符",
+            "用户类型标签",
+            "用户类型字符串",
+            "用户类型描述",
+            "用户类型显示名称"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortTypeName",
+            "InterfaceType",
+            "ConnectorType",
+            "PortType",
+            "SocketType",
+            "PortCategory",
+            "PortKind",
+            "PortClass",
+            "PortLabel",
+            "PortRole",
+            "端口类型名称",
+            "接口类型",
+            "连接器类型",
+            "端口类型",
+            "插座类型",
+            "端口类别",
+            "端口种类",
+            "端口类别",
+            "端口标签",
+            "端口角色"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "Outgoing",
+            "Egress",
+            "Transmit",
+            "Send",
+            "Export",
+            "Outbound",
+            "Egress Traffic",
+            "Transmit Data",
+            "Send Flow",
+            "Export Rate",
+            "传出流量",
+            "外发流量",
+            "发送流量",
+            "出口流量",
+            "输出流量",
+            "发送数据",
+            "传输流量",
+            "传送流量",
+            "导出速率",
+            "流出量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "IncomingTraffic",
+            "InboundData",
+            "NetworkInput",
+            "ReceivedFlow",
+            "DataIn",
+            "RxTraffic",
+            "InputThroughput",
+            "TrafficIn",
+            "Ingress",
+            "InputFlow",
+            "入站流量",
+            "网络输入",
+            "接收流量",
+            "数据输入",
+            "接收数据",
+            "入口流量",
+            "上行流量",
+            "输入流量",
+            "输入数据",
+            "收取流量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PacketLoss",
+            "LostPackets",
+            "DroppedPackets",
+            "ErrorPackets",
+            "DiscardedPackets",
+            "PacketLoss",
+            "LostPackets",
+            "DroppedPackets",
+            "ErrorPackets",
+            "DiscardedPackets",
+            "丢包数",
+            "丢失数据包",
+            "丢包",
+            "错误数据包",
+            "丢弃数据包",
+            "包丢失",
+            "数据包丢失",
+            "数据包丢失量",
+            "错误包",
+            "丢包数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceInterfaceScalar",
+        "synonyms": [
+            "PortStatus",
+            "PortState",
+            "ConnectionStatus",
+            "InterfaceStatus",
+            "LinkStatus",
+            "OperationalStatus",
+            "Port运行状态",
+            "端口状态",
+            "接口状态",
+            "连接状态",
+            "链路状态",
+            "操作状态",
+            "端口运行状况",
+            "接口运行状态",
+            "连接运行状态",
+            "链路运行状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

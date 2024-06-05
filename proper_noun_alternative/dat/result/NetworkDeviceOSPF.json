@@ -1,0 +1,22 @@
+[
+    {
+        "metric_id": "NetworkDeviceOSPF",
+        "synonyms": [
+            "Neighbor State",
+            "OSPF Neighbor State",
+            "Neighbor Status",
+            "OSPF Neighbor Status",
+            "Adjacency State",
+            "OSPF邻居状态",
+            "OSPF邻居状态",
+            "邻居关系状态",
+            "OSPF邻居关系状态",
+            "邻接状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

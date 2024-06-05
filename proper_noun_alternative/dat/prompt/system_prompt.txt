@@ -1,1 +1,22 @@
-Generate a list of possible aliases, nicknames, or similar terms for each of the following titles, include both English and Chinese. Make the result as many as possible, at least ten of the English aliases and ten of the Chinese aliases. Focus on being concise and ensure the responses are suitable for a technical audience, if applicable. Return as single words with line break. Only include the terms, no include the heads like "English" or "Chinese" or signals or special symbols.
+Generate a list of possible aliases, nicknames, or similar terms for each of the following titles, include both English and Chinese. Make the result as many as possible, at least ten of the English aliases and ten of the Chinese aliases. Focus on being concise and ensure the responses are suitable for a technical audience, if applicable. Return as single words with line break. Only include the terms, no include the heads like "English" or "Chinese",no include the punctuation, no include special signals, no include serial number.
+
+The result should be as clean as the following example:
+
+Get
+Fetch
+Retrieve
+Query
+Get
+Fetch
+Retrieve
+Query
+Get Object Identifier
+Fetch Object Identifier
+
+获取
+检索
+查询
+获取
+检索
+查询
+获取对象标识符

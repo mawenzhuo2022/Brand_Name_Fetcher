@@ -1,0 +1,7 @@
+指标,名称,描述
+ByteRx,入流量,端口当前流入的速率
+ifOutPercent,出带宽占用率,出带宽占用率
+ByteTx,出流量,端口当前流出的速率
+ifInPercent,入带宽占用率,入带宽占用率
+Octets,总流量,
+Name,接口名称,接口名称

@@ -1,0 +1,182 @@
+[
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "Inbound",
+            "Ingress",
+            "Received",
+            "Input",
+            "Network Input",
+            "Received Data",
+            "Incoming",
+            "Data In",
+            "Network In",
+            "Traffic In",
+            "入口流量",
+            "接收流量",
+            "网络输入",
+            "收到的数据",
+            "传入数据",
+            "接收的数据包",
+            "流入数据",
+            "网络输入",
+            "数据输入",
+            "流量入口"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "Bandwidth Usage",
+            "Network Bandwidth Utilization",
+            "Bandwidth Consumption",
+            "Bandwidth Occupancy",
+            "Bandwidth Utilization Rate",
+            "Bandwidth Usage Rate",
+            "Bandwidth Occupancy Rate",
+            "Network Bandwidth Usage",
+            "Network Bandwidth Consumption",
+            "Network Bandwidth Utilization",
+            "带宽使用率",
+            "网络带宽利用",
+            "带宽消耗",
+            "带宽利用率",
+            "带宽占用率",
+            "网络带宽使用",
+            "网络带宽消耗",
+            "网络带宽利用率",
+            "网络带宽占用",
+            "网络带宽占用率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "Outbound",
+            "Egress",
+            "Transmit",
+            "Send",
+            "Export",
+            "Outgoing",
+            "Emanate",
+            "Emanation",
+            "Egress Traffic",
+            "Egress Data",
+            "传出流量",
+            "外发流量",
+            "发送流量",
+            "出口流量",
+            "出站流量",
+            "外流量",
+            "流出量",
+            "流出数据",
+            "流出流量",
+            "出境流量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "Bandwidth Utilization",
+            "Bandwidth Usage",
+            "Bandwidth Occupancy",
+            "Network Bandwidth Consumption",
+            "Bandwidth Allocation",
+            "Bandwidth Utilization Rate",
+            "Bandwidth Usage Ratio",
+            "Bandwidth Consumption Rate",
+            "Network Bandwidth Usage",
+            "Network Bandwidth Allocation",
+            "带宽利用率",
+            "带宽使用率",
+            "带宽占用率",
+            "网络带宽消耗",
+            "带宽分配",
+            "带宽利用比",
+            "带宽使用比率",
+            "带宽消耗率",
+            "网络带宽使用",
+            "网络带宽分配"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "TotalTraffic",
+            "BandwidthUsage",
+            "DataTransfer",
+            "NetworkThroughput",
+            "TotalData",
+            "TotalVolume",
+            "TrafficSum",
+            "TotalBandwidth",
+            "AggregateTraffic",
+            "TotalThroughput",
+            "总带宽",
+            "网络流量",
+            "数据传输量",
+            "总数据",
+            "流量总和",
+            "总吞吐量",
+            "总交通量",
+            "总带宽使用量",
+            "总数据传输",
+            "总网络流量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkPerformance",
+        "synonyms": [
+            "Interface Name",
+            "Port Name",
+            "Network Interface",
+            "Connection Name",
+            "Adapter Name",
+            "Link Name",
+            "Ethernet Name",
+            "Interface ID",
+            "Interface Label",
+            "Connection Label",
+            "接口名称",
+            "端口名称",
+            "网络接口",
+            "连接名称",
+            "适配器名称",
+            "链路名称",
+            "以太网名称",
+            "接口ID",
+            "接口标签",
+            "连接标签"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

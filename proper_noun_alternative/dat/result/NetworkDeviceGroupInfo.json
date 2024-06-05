@@ -1,0 +1,121 @@
+[
+    {
+        "metric_id": "NetworkDeviceGroupInfo",
+        "synonyms": [
+            "DataTransferred",
+            "BytesTransferred",
+            "DataUsage",
+            "DataTransfer",
+            "TrafficVolume",
+            "DataVolume",
+            "DataBytes",
+            "TransferBytes",
+            "ByteCount",
+            "ByteTransfer",
+            "数据传输",
+            "字节传输",
+            "数据使用量",
+            "数据传递",
+            "流量大小",
+            "数据量",
+            "数据字节",
+            "传输字节",
+            "字节计数",
+            "字节传送"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceGroupInfo",
+        "synonyms": [
+            "TotalSessions",
+            "TotalConnections",
+            "SessionCount",
+            "ConnectionTotal",
+            "TotalSessionAmount",
+            "TotalNumberofSessions",
+            "TotalSessionQuantity",
+            "TotalSessionValue",
+            "TotalSessionTotal",
+            "TotalSessionCount",
+            "总会话数",
+            "总连接数",
+            "会话总数",
+            "连接总数",
+            "总会话数量",
+            "会话总数",
+            "会话总量",
+            "总会话值",
+            "总会话总数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceGroupInfo",
+        "synonyms": [
+            "CurrentSessionCount",
+            "SessionCount",
+            "CurrentConnections",
+            "ActiveSessions",
+            "NumberOfSessions",
+            "TotalSession",
+            "SessionQuantity",
+            "SessionTotal",
+            "ConnectionCount",
+            "SessionAmount",
+            "当前会话数量",
+            "会话数",
+            "活动会话数",
+            "会话总数",
+            "会话数量",
+            "总会话数",
+            "当前连接数",
+            "连接数量",
+            "会话总量",
+            "会话计数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDeviceGroupInfo",
+        "synonyms": [
+            "MaximumSessionCount",
+            "MaxSessionNum",
+            "SessionLimit",
+            "TopSessionNumber",
+            "MaxConcurrentSession",
+            "SessionCap",
+            "SessionPeak",
+            "SessionHighwaterMark",
+            "SessionMax",
+            "SessionCeiling",
+            "最大会话数量",
+            "最大会话数",
+            "最高会话限制",
+            "会话上限",
+            "最大并发会话",
+            "会话峰值",
+            "会话高水位线",
+            "最大会话峰值",
+            "会话最大值",
+            "会话上限"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]

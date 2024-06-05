@@ -1,0 +1,2413 @@
+[
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "GetOID",
+            "FetchOID",
+            "RetrieveOID",
+            "QueryOID",
+            "GetOID",
+            "FetchOID",
+            "RetrieveOID",
+            "QueryOID",
+            "获取OID",
+            "检索OID",
+            "查询OID"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Command Execution Process",
+            "Command Flow",
+            "Execution Steps",
+            "Command Processing",
+            "Operation Sequence",
+            "Command Execution Path",
+            "Command Handling",
+            "Command Procedure",
+            "Command Operation",
+            "Command Lifecycle",
+            "命令执行流程",
+            "命令处理过程",
+            "执行命令步骤",
+            "操作序列",
+            "命令执行路径",
+            "命令处理",
+            "命令程序",
+            "命令操作",
+            "命令生命周期"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MPBGPNeighborAbnormalCount",
+            "MPBGPNeighborIssueCount",
+            "MPBGPNeighborUnusualCount",
+            "MPBGPNeighborAnomalyCount",
+            "MPBGPNeighborProblemCount",
+            "MPBGPNeighborIrregularCount",
+            "MPBGPNeighborAberrantCount",
+            "MPBGPNeighborOddCount",
+            "MPBGPNeighborExceptionCount",
+            "MPBGPNeighborUncommonCount",
+            "MP-BGP邻居异常数量",
+            "MP-BGP邻居问题数量",
+            "MP-BGP邻居异常计数",
+            "MP-BGP邻居异常数目",
+            "MP-BGP邻居问题计数",
+            "MP-BGP邻居不寻常数量",
+            "MP-BGP邻居异常计数",
+            "MP-BGP邻居奇怪数量",
+            "MP-BGP邻居例外计数",
+            "MP-BGP邻居不常见数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "IPTable",
+            "AddressTable",
+            "IPMapping",
+            "NetworkTable",
+            "IPList",
+            "IPDirectory",
+            "IPDatabase",
+            "IPInventory",
+            "IPCatalog",
+            "IPRegistry",
+            "IP表",
+            "地址表",
+            "IP映射",
+            "网络表",
+            "IP列表",
+            "IP目录",
+            "IP数据库",
+            "IP清单",
+            "IP目录",
+            "IP注册表"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "VirtualServer",
+            "Virtual Service",
+            "LTM Virtual Server",
+            "Load Balancer Virtual Server",
+            "VS",
+            "LTM-VS",
+            "LTM虚拟服务器",
+            "负载均衡虚拟服务器",
+            "虚拟服务"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "ProcessExecution",
+            "CommandExecution",
+            "ExecutionProcess",
+            "CommandProcess",
+            "ProcessRun",
+            "OperationExecution",
+            "ProcedureExecution",
+            "CommandProcedure",
+            "ProcedureRun",
+            "OperationRun",
+            "命令执行",
+            "执行过程",
+            "操作执行",
+            "指令执行",
+            "过程运行",
+            "操作过程",
+            "执行程序",
+            "指令过程",
+            "程序运行",
+            "操作运行"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "RemotePingAverageDelay",
+            "RemotePingLatency",
+            "RemotePingResponseTime",
+            "RemotePingAvgDelay",
+            "RemotePingRTT",
+            "RemotePingAvgLatency",
+            "RemotePingDelay",
+            "RemotePingTime",
+            "RemotePingResponse",
+            "RemotePingAvgRTT",
+            "远程Ping平均延时",
+            "远程Ping延迟",
+            "远程Ping响应时间",
+            "远程Ping平均延迟",
+            "远程Ping往返时间",
+            "远程Ping平均延迟时间",
+            "远程Ping延时",
+            "远程Ping时间",
+            "远程Ping响应",
+            "远程Ping平均往返时间"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Card Status",
+            "Board Status",
+            "Module Status",
+            "Hardware Status",
+            "Device Status",
+            "Card Health",
+            "Board Health",
+            "Module Health",
+            "Hardware Health",
+            "Device Health",
+            "卡状态",
+            "板状态",
+            "模块状态",
+            "硬件状态",
+            "设备状态",
+            "卡健康",
+            "板健康",
+            "模块健康",
+            "硬件健康",
+            "设备健康"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "BFD Status",
+            "BFD State",
+            "BFD Health",
+            "BFD Connection",
+            "BFD Link",
+            "BFD Path",
+            "BFD Status",
+            "BFD State",
+            "BFD Health",
+            "BFD Connection",
+            "BFD Link",
+            "BFD Path",
+            "BFD 状态",
+            "BFD 状态",
+            "BFD 健康",
+            "BFD 连接",
+            "BFD 链路",
+            "BFD 路径"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "PacketLossRate",
+            "PacketLossPercentage",
+            "PingLossRate",
+            "PingPacketLoss",
+            "Ping丢包率",
+            "PING包丢失率",
+            "PING掉包率",
+            "PING数据包丢失率",
+            "PING数据包丢失百分比",
+            "PING包损失率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Port",
+            "Connector",
+            "Socket",
+            "Interface",
+            "Link",
+            "Terminal",
+            "Jack",
+            "Dock",
+            "Hub",
+            "Gate",
+            "端口",
+            "连接器",
+            "插座",
+            "接口",
+            "链接",
+            "终端",
+            "插孔",
+            "码头",
+            "中心",
+            "门"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "PowerStatus",
+            "PowerState",
+            "PowerCondition",
+            "PowerHealth",
+            "PowerInformation",
+            "PowerSituation",
+            "PowerPerformance",
+            "PowerStatusInfo",
+            "PowerStatusDetail",
+            "PowerStatusReport",
+            "电源状态",
+            "电源状况",
+            "电源健康",
+            "电源信息",
+            "电源情况",
+            "电源性能",
+            "电源状态信息",
+            "电源状态详情",
+            "电源状态报告"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "AbnormalNeighborCount",
+            "NeighborIssueCount",
+            "LDP Neighbor Anomalies",
+            "LDP Neighbor Abnormalities",
+            "LDP Neighbor Issues",
+            "MPLS LDP Neighbor Abnormal Count",
+            "MPLS LDP Neighbor Issue Count",
+            "MPLS LDP Neighbor Anomaly",
+            "MPLS LDP Neighbor Problem",
+            "MPLS LDP Neighbor Error",
+            "MPLS LDP邻居异常数量",
+            "LDP邻居问题数",
+            "LDP邻居异常情况",
+            "LDP邻居问题统计",
+            "MPLS LDP邻居异常计数",
+            "MPLS LDP邻居问题计数",
+            "MPLS LDP邻居异常情况",
+            "MPLS LDP邻居问题",
+            "MPLS LDP邻居错误"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "GTMlink",
+            "GlobalTrafficManagerlink",
+            "GlobalTrafficManager",
+            "TrafficManagerlink",
+            "NetworkGTM",
+            "NetGTM",
+            "GTMNet",
+            "TrafficGTM",
+            "NetTrafficManager",
+            "NetworkTrafficManager",
+            "全球流量管理器链接",
+            "全球流量管理器",
+            "流量管理器链接",
+            "网络GTM",
+            "GTM网络",
+            "网络GTM",
+            "流量GTM",
+            "网络流量管理器",
+            "网络流量管理员"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Address Resolution Protocol",
+            "Address Resolution",
+            "ARP Protocol",
+            "ARP Request",
+            "ARP Table",
+            "ARP Cache",
+            "ARP Packet",
+            "ARP Resolution",
+            "ARP Discovery",
+            "ARP Spoofing",
+            "地址解析协议",
+            "地址解析",
+            "ARP 协议",
+            "ARP 请求",
+            "ARP 表",
+            "ARP 缓存",
+            "ARP 数据包",
+            "ARP 解析",
+            "ARP 发现",
+            "ARP 欺骗"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SSH Get RemotePing Status",
+            "Retrieve RemotePing Status via SSH",
+            "Query RemotePing Status using SSH",
+            "SSH获取远程Ping状态",
+            "通过SSH检索远程Ping状态",
+            "使用SSH查询远程Ping状态",
+            "SSH查询远程Ping状态",
+            "SSH远程Ping状态查询",
+            "SSH远程Ping状态获取",
+            "SSH获取远程Ping状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "LoadBalancerPool",
+            "BalancerPool",
+            "Pool",
+            "PoolMember",
+            "PoolObject",
+            "LTMPool",
+            "LoadBalancerPool",
+            "BalancerPool",
+            "Pool",
+            "PoolMember",
+            "PoolObject",
+            "LTM池",
+            "负载均衡池",
+            "均衡池",
+            "池",
+            "池成员",
+            "池对象"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "LatencyDataStatus",
+            "DelayDataStatus",
+            "LatencyStatus",
+            "DataDelayStatus",
+            "RetrieveLatencyStatus",
+            "QueryDelayData",
+            "FetchDataDelayState",
+            "GetLatencyDataState",
+            "AccessLatencyDataStatus",
+            "ObtainDelayStatus",
+            "时延数据状态",
+            "延迟数据状态",
+            "时延状态",
+            "数据延迟状态",
+            "检索时延状态",
+            "查询延迟数据",
+            "获取数据延迟状态",
+            "获取时延数据状态",
+            "访问时延数据状态",
+            "获得延迟状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Host Information",
+            "Machine Details",
+            "System Data",
+            "Device Profile",
+            "Hardware Info",
+            "Host Info",
+            "Computer Details",
+            "System Info",
+            "Device Information",
+            "Node Details",
+            "主机资料",
+            "机器详情",
+            "系统数据",
+            "设备概况",
+            "硬件信息",
+            "主机信息",
+            "计算机详情",
+            "系统信息",
+            "设备信息",
+            "节点详情"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "FlashUsage",
+            "FlashUtilization",
+            "FlashCapacity",
+            "FlashSpace",
+            "FlashStorage",
+            "FlashMemory",
+            "FlashAllocation",
+            "FlashStatus",
+            "FlashAvailability",
+            "FlashOccupancy",
+            "闪存使用率",
+            "闪存利用率",
+            "闪存容量",
+            "闪存空间",
+            "闪存存储",
+            "闪存内存",
+            "闪存分配",
+            "闪存状态",
+            "闪存可用性",
+            "闪存占用"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Pool Info",
+            "Pool Data",
+            "Resource Pool",
+            "Pool Details",
+            "Pool Summary",
+            "Pool Overview",
+            "Pool Configuration",
+            "Pool Status",
+            "Pool Metrics",
+            "Pool Report",
+            "池信息",
+            "池数据",
+            "资源池",
+            "池详情",
+            "池摘要",
+            "池概述",
+            "池配置",
+            "池状态",
+            "池指标",
+            "池报告"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "F5 Load Balancer Device Concurrent Connections",
+            "F5 Load Balancer Device Connection Limit",
+            "F5 Load Balancer Device Connection Count",
+            "F5 Load Balancer Device Connections",
+            "F5 Load Balancer Device CC",
+            "F5负载均衡设备并发连接数",
+            "F5负载均衡设备连接限制",
+            "F5负载均衡设备连接计数",
+            "F5负载均衡设备连接数",
+            "F5负载均衡设备CC"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "RetrieveRemotePingResult",
+            "FetchRemotePingResult",
+            "GetRemotePingResult",
+            "QueryRemotePingResult",
+            "ObtainRemotePingResult",
+            "AcquireRemotePingResult",
+            "AccessRemotePingResult",
+            "PullRemotePingResult",
+            "ReceiveRemotePingResult",
+            "GrabRemotePingResult",
+            "获取远程ping结果",
+            "检索远程ping结果",
+            "查询远程ping结果",
+            "取得远程ping结果",
+            "获取远程ping结果",
+            "接收远程ping结果",
+            "拉取远程ping结果",
+            "收到远程ping结果",
+            "远程ping结果获取"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MEM Linecard Utilization",
+            "MEM Linecard Usage",
+            "MEM Linecard Performance",
+            "MEM Linecard Capacity",
+            "MEM Linecard Load",
+            "MEM Linecard Occupancy",
+            "MEM Linecard Efficiency",
+            "MEM Linecard Statistics",
+            "MEM Linecard Metrics",
+            "MEM Linecard Data",
+            "MEM Linecard利用率",
+            "MEM Linecard使用率",
+            "MEM Linecard性能",
+            "MEM Linecard容量",
+            "MEM Linecard负载",
+            "MEM Linecard占用率",
+            "MEM Linecard效率",
+            "MEM Linecard统计",
+            "MEM Linecard度量",
+            "MEM Linecard数据"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Command Execution Process",
+            "Command Flow",
+            "Command Execution Steps",
+            "Execution Path",
+            "Command Process",
+            "Operation Procedure",
+            "Command Execution Workflow",
+            "Command Operation Sequence",
+            "Command Handling Procedure",
+            "Procedure for Command Execution",
+            "命令执行流程",
+            "命令流",
+            "命令执行步骤",
+            "执行路径",
+            "命令过程",
+            "操作程序",
+            "命令执行工作流",
+            "命令操作序列",
+            "命令处理过程",
+            "执行命令的步骤"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SNMP Access Status",
+            "SNMP Status",
+            "Network Device SNMP Access",
+            "Device SNMP Status",
+            "SNMP Connection Status",
+            "SNMP Access State",
+            "Network Equipment SNMP Access",
+            "SNMP访问状态",
+            "SNMP状态",
+            "网络设备SNMP访问",
+            "设备SNMP状态",
+            "SNMP连接状态",
+            "SNMP访问状态",
+            "网络设备SNMP访问"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SSH Test",
+            "SSH Connection Test",
+            "Secure Shell Test",
+            "SSH Connectivity Check",
+            "SSH Validation",
+            "SSH Connectivity Test",
+            "SSH Probe",
+            "SSH Verification",
+            "SSH Health Check",
+            "SSH Diagnostics",
+            "SSH 测试",
+            "SSH 连接测试",
+            "安全外壳测试",
+            "SSH 连通性检查",
+            "SSH 验证",
+            "SSH 连接性测试",
+            "SSH 探测",
+            "SSH 验证",
+            "SSH 健康检查",
+            "SSH 诊断"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "CPU Backup Usage",
+            "CPU Backup Utilization",
+            "CPU Backup Performance",
+            "CPU Backup Load",
+            "CPU Backup Efficiency",
+            "CPU Backup Activity",
+            "CPU Backup Workload",
+            "CPU Backup Capacity",
+            "CPU Backup Consumption",
+            "CPU Backup Statistics",
+            "CPU 备份使用率",
+            "CPU 备份利用率",
+            "CPU 备份性能",
+            "CPU 备份负载",
+            "CPU 备份效率",
+            "CPU 备份活动",
+            "CPU 备份工作量",
+            "CPU 备份容量",
+            "CPU 备份消耗",
+            "CPU 备份统计"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SSH Latency",
+            "SSH Delay",
+            "SSH Response Time",
+            "SSH Round Trip Time",
+            "SSH Ping",
+            "Secure Shell Latency",
+            "Secure Shell Delay",
+            "Secure Shell Response Time",
+            "Secure Shell Round Trip Time",
+            "Secure Shell Ping",
+            "SSH时延",
+            "SSH延迟",
+            "SSH响应时间",
+            "SSH往返时间",
+            "SSH Ping",
+            "安全外壳时延",
+            "安全外壳延迟",
+            "安全外壳响应时间",
+            "安全外壳往返时间",
+            "安全外壳Ping"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "FarmInfo",
+            "FarmDetails",
+            "FarmData",
+            "FarmSummary",
+            "FarmStats",
+            "FarmOverview",
+            "FarmConfig",
+            "FarmProperties",
+            "FarmSettings",
+            "FarmParameters",
+            "农场信息",
+            "农场详情",
+            "农场数据",
+            "农场摘要",
+            "农场统计",
+            "农场概述",
+            "农场配置",
+            "农场属性",
+            "农场设置",
+            "农场参数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Telnet",
+            "Remote",
+            "Ping",
+            "Status",
+            "Get",
+            "Retrieve",
+            "Query",
+            "Access",
+            "Telnet Connection",
+            "Remote Ping",
+            "Ping Status",
+            "Telnet方式",
+            "远程",
+            "ping",
+            "状态",
+            "获取",
+            "检索",
+            "查询",
+            "访问",
+            "Telnet连接",
+            "远程Ping",
+            "Ping状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Retrieve",
+            "Fetch",
+            "Query",
+            "Obtain",
+            "Acquire",
+            "Access",
+            "Pull",
+            "Extract",
+            "Get",
+            "Fetch",
+            "获取",
+            "检索",
+            "查询",
+            "获得",
+            "获取",
+            "访问",
+            "拉取",
+            "提取"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "BoardStatus",
+            "CardStatus",
+            "ModuleStatus",
+            "HardwareStatus",
+            "ComponentState",
+            "BoardHealth",
+            "CardHealth",
+            "ModuleHealth",
+            "HardwareHealth",
+            "ComponentCondition",
+            "板卡状态",
+            "卡状态",
+            "模块状态",
+            "硬件状态",
+            "组件状态",
+            "板卡健康",
+            "卡健康",
+            "模块健康",
+            "硬件健康",
+            "组件状况"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "PingLossRate",
+            "PingPacketLoss",
+            "PingDropRate",
+            "PingLossPercentage",
+            "PingMissingRate",
+            "PingMissingPercentage",
+            "PingPacketDrop",
+            "PingPacketMissing",
+            "Ping包丢失率",
+            "Ping包损失率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Configure Alarm Identifier",
+            "Set Alarm ID",
+            "Assign Alarm Code",
+            "Alarm Identification Setup",
+            "Set Alert Tag",
+            "Configure Alert Identifier",
+            "Define Alert Code",
+            "Alarm Tagging",
+            "Alarm Code Configuration",
+            "Alert ID Assignment",
+            "设置警报标识",
+            "设置告警 ID",
+            "分配告警代码",
+            "告警标识设置",
+            "设置警报标签",
+            "配置警报标识符",
+            "定义警报代码",
+            "警报标记",
+            "告警代码配置",
+            "警报 ID 分配"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Optical Power",
+            "Light Power",
+            "Power Level",
+            "Power Measurement",
+            "Optical Strength",
+            "Optical Intensity",
+            "Light Intensity",
+            "Power Reading",
+            "Power Value",
+            "Power Level",
+            "光功率",
+            "光强度",
+            "光功率值",
+            "光强",
+            "光强度值",
+            "光度",
+            "功率水平",
+            "光强测量",
+            "光强度测量",
+            "功率读数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Uptime",
+            "Operation Time",
+            "Runtime",
+            "Activity Time",
+            "Online Time",
+            "Up Time",
+            "Running Time",
+            "Availability Time",
+            "Active Time",
+            "Working Time",
+            "正常运行时间",
+            "上线时间",
+            "运行时长",
+            "活动时间",
+            "在线时间",
+            "可用时间",
+            "工作时间",
+            "活跃时间",
+            "开机时间",
+            "运转时间"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Device Info",
+            "Machine Info",
+            "Hardware Info",
+            "System Info",
+            "Device Details",
+            "Equipment Details",
+            "Device Specifications",
+            "Gadget Info",
+            "Tool Info",
+            "Device Information",
+            "设备详情",
+            "机器信息",
+            "硬件信息",
+            "系统信息",
+            "设备细节",
+            "设备规格",
+            "工具信息",
+            "设备资讯",
+            "设备描述",
+            "设备数据"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Fetch Data Protocol Status",
+            "Retrieve Data Protocol Status",
+            "Query Data Protocol Status",
+            "Get Data Protocol Status",
+            "Fetch Data Protocol State",
+            "Retrieve Data Protocol State",
+            "Query Data Protocol State",
+            "Get Data Protocol State",
+            "Fetch Data Protocol Status Information",
+            "Retrieve Data Protocol Status Information",
+            "获取数据协议状态",
+            "检索数据协议状态",
+            "查询数据协议状态",
+            "获取数据协议状态",
+            "获取数据协议状态",
+            "检索数据协议状态",
+            "查询数据协议状态",
+            "获取数据协议状态",
+            "获取数据协议状态信息",
+            "检索数据协议状态信息"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Routing Table",
+            "Forwarding Table",
+            "Routing Information",
+            "Routing Database",
+            "Routing Entries",
+            "Routing Table",
+            "Forwarding Table",
+            "Routing Information",
+            "Routing Database",
+            "Routing Entries",
+            "路由表",
+            "转发表",
+            "路由信息",
+            "路由数据库",
+            "路由条目"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "NAT Usage",
+            "NAT Utilization",
+            "NAT Efficiency",
+            "NAT Performance",
+            "NAT Statistics",
+            "NAT Traffic",
+            "NAT Activity",
+            "NAT Load",
+            "NAT Analysis",
+            "NAT Report",
+            "NAT使用率",
+            "NAT利用率",
+            "NAT效率",
+            "NAT性能",
+            "NAT统计",
+            "NAT流量",
+            "NAT活动",
+            "NAT负载",
+            "NAT分析",
+            "NAT报告"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "CPU Load",
+            "Processor Load",
+            "CPU Utilization",
+            "Processor Utilization",
+            "CPU Usage",
+            "Processor Usage",
+            "CPU Performance",
+            "Processor Performance",
+            "CPU Workload",
+            "Processor Workload",
+            "处理器负载",
+            "中央处理器负载",
+            "CPU利用率",
+            "处理器利用率",
+            "CPU使用率",
+            "处理器使用率",
+            "CPU性能",
+            "处理器性能",
+            "CPU工作负荷",
+            "处理器工作负荷"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Port Table",
+            "Network Port Table",
+            "Port List",
+            "Interface Table",
+            "Switch Port Table",
+            "Port Mapping",
+            "Port Inventory",
+            "Port Information",
+            "Port Catalog",
+            "Port Directory",
+            "端口表",
+            "网络接口表",
+            "端口列表",
+            "接口表",
+            "交换机端口表",
+            "端口映射",
+            "端口清单",
+            "端口信息",
+            "端口目录",
+            "端口索引"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Latency",
+            "Delay",
+            "SNMP",
+            "Support",
+            "专线",
+            "时延",
+            "支持",
+            "网络设备",
+            "监控",
+            "Simple Network Management Protocol",
+            "延迟",
+            "网络",
+            "专线连接",
+            "远程监控",
+            "网络管理",
+            "专线设备"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "FullTableData",
+            "BFDTable",
+            "BFDData",
+            "CompleteTable",
+            "AllData",
+            "TotalData",
+            "EntireTable",
+            "BFD全表数据",
+            "BFD表格",
+            "BFD数据",
+            "完整表格",
+            "全部数据",
+            "整个表格"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "PowerStatus",
+            "PowerState",
+            "StatusPower",
+            "DevicePower",
+            "PowerCondition",
+            "PowerMode",
+            "Power Information",
+            "PowerStateInfo",
+            "PowerStatusInfo",
+            "PowerStatusData",
+            "电源情况",
+            "电源模式",
+            "电源信息",
+            "电源状态信息",
+            "状态电源",
+            "设备电源",
+            "电源状态数据",
+            "电源状态信息",
+            "电源状况",
+            "电源状态情况"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Bridge Address",
+            "Bridge MAC",
+            "Bridge Identifier",
+            "Bridge Location",
+            "Bridge MAC Address",
+            "Bridge Device",
+            "Bridge Address",
+            "Bridge MAC",
+            "Bridge Identifier",
+            "Bridge Location",
+            "网桥地址",
+            "桥址",
+            "桥MAC",
+            "桥标识",
+            "桥位置",
+            "桥MAC地址",
+            "桥设备",
+            "网桥地址",
+            "桥址",
+            "桥MAC"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Telnet Test",
+            "Remote Access Test",
+            "Network Device Test",
+            "Command Line Test",
+            "Telnet Connection Test",
+            "Text-based Test",
+            "Telnet验证",
+            "远程访问测试",
+            "网络设备测试",
+            "命令行测试"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "CPU Utilization",
+            "Processor Usage",
+            "CPU Load",
+            "CPU Performance",
+            "CPU Line Card Utilization",
+            "CPU Linecard Utilization",
+            "Linecard CPU Usage",
+            "Linecard Processor Utilization",
+            "Line Card CPU Load",
+            "Line Card CPU Performance",
+            "CPU 利用率",
+            "处理器使用率",
+            "CPU 负载",
+            "CPU 性能",
+            "CPU Line Card 利用率",
+            "CPU Linecard 利用率",
+            "Linecard CPU 使用率",
+            "Linecard 处理器利用率",
+            "Line Card CPU 负载",
+            "Line Card CPU 性能"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "NetworkDevice",
+            "Device",
+            "Network",
+            "Connection",
+            "Information",
+            "Connectivity",
+            "Device Info",
+            "Net Info",
+            "Net Device",
+            "Network Connect",
+            "网络设备",
+            "设备",
+            "网络",
+            "连接",
+            "信息",
+            "连接信息",
+            "设备信息",
+            "网络信息",
+            "网络设备",
+            "网络连接"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MPBGP Neighbor State",
+            "MPBGP Peer Status",
+            "Multiprotocol BGP Neighbor Relationship Status",
+            "Multiprotocol BGP Peer Connection State",
+            "MPBGP邻居连接状态",
+            "MPBGP邻居状态",
+            "多协议BGP邻居关系状态",
+            "多协议BGP邻居连接状态",
+            "多协议BGP对等体状态",
+            "多协议BGP对等连接状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MEM Backup Usage",
+            "MEM Backup Utilization",
+            "MEM Backup Percentage",
+            "MEM Backup Efficiency",
+            "MEM Backup Rate",
+            "MEM Backup Performance",
+            "MEM Backup Statistics",
+            "MEM Backup Metrics",
+            "MEM Backup Data",
+            "MEM Backup Analysis",
+            "MEM备份使用率",
+            "MEM备份利用率",
+            "MEM备份百分比",
+            "MEM备份效率",
+            "MEM备份速率",
+            "MEM备份性能",
+            "MEM备份统计",
+            "MEM备份度量",
+            "MEM备份数据",
+            "MEM备份分析"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Pool",
+            "GTM Pool",
+            "Global Traffic Manager Pool",
+            "Load Balancer Pool",
+            "DNS Pool",
+            "GTM池",
+            "全局流量管理器池",
+            "负载均衡器池",
+            "DNS池"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Command Execution Process",
+            "Command Flow",
+            "Execution Steps",
+            "Operation Process",
+            "Procedure",
+            "Command Execution",
+            "Command Process",
+            "Operation Flow",
+            "Task Execution",
+            "Function Process",
+            "命令执行流程",
+            "指令执行过程",
+            "操作过程",
+            "执行步骤",
+            "程序过程",
+            "操作流程",
+            "任务执行",
+            "功能过程",
+            "命令流程",
+            "任务流程"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "F5",
+            "GTM",
+            "VS",
+            "LoadBalancer",
+            "BigIP",
+            "GlobalTrafficManager",
+            "VirtualServer",
+            "F5",
+            "GTM",
+            "VS",
+            "负载均衡器",
+            "大型IP",
+            "全局流量管理器",
+            "虚拟服务器"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MEM Load",
+            "Memory Load",
+            "RAM Load",
+            "Memory Usage",
+            "RAM Usage",
+            "Memory Utilization",
+            "RAM Utilization",
+            "Memory Occupancy",
+            "RAM Occupancy",
+            "Memory Consumption",
+            "内存负载",
+            "RAM负载",
+            "内存使用率",
+            "RAM使用率",
+            "内存利用率",
+            "RAM利用率",
+            "内存占用",
+            "RAM占用",
+            "内存消耗"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MasterSlaveInformation",
+            "PrimarySecondaryInformation",
+            "LeaderFollowerInformation",
+            "ControllerWorkerInformation",
+            "SourceDestinationInformation",
+            "OriginTargetInformation",
+            "ProducerConsumerInformation",
+            "HostClientInformation",
+            "ParentChildInformation",
+            "HubSpokeInformation",
+            "主从信息",
+            "主备信息",
+            "主副信息",
+            "领导跟随信息",
+            "控制工作者信息",
+            "源目信息",
+            "起点目标信息",
+            "生产者消费者信息",
+            "主机客户端信息",
+            "父子信息",
+            "中心辐射信息"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Create",
+            "Establish",
+            "Initiate",
+            "Spawn",
+            "Generate",
+            "Setup",
+            "Form",
+            "Build",
+            "Construct",
+            "Develop",
+            "远程ping任务",
+            "远程ping任务索引",
+            "创建",
+            "建立",
+            "设立",
+            "生成",
+            "设置",
+            "形成",
+            "建构",
+            "发展"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "OSPF Neighbor Abnormal Count",
+            "OSPF Neighbor Issue Count",
+            "OSPF Neighbor Irregularity Number",
+            "OSPF Neighbor Anomaly Quantity",
+            "OSPF Neighbor Aberration Total",
+            "OSPF Neighbor Exception Amount",
+            "OSPF邻居异常数量",
+            "OSPF邻居问题计数",
+            "OSPF邻居不规则数",
+            "OSPF邻居异常总数",
+            "OSPF邻居异常量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "ClearRemotePingTask",
+            "RemoveRemotePingTask",
+            "DeleteRemotePingTask",
+            "EraseRemotePingTask",
+            "CancelRemotePingTask",
+            "PurgeRemotePingTask",
+            "FlushRemotePingTask",
+            "WipeRemotePingTask",
+            "TerminateRemotePingTask",
+            "EliminateRemotePingTask",
+            "清除远程ping任务",
+            "移除远程ping任务",
+            "删除远程ping任务",
+            "擦除远程ping任务",
+            "取消远程ping任务",
+            "清空远程ping任务",
+            "刷新远程ping任务",
+            "清除远程ping任务",
+            "终止远程ping任务",
+            "消除远程ping任务"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SNMP",
+            "Network Device",
+            "Ping",
+            "Jitter",
+            "Remote",
+            "Get",
+            "Retrieve",
+            "Query",
+            "Fetch",
+            "Monitor",
+            "网络设备",
+            "远程",
+            "抖动",
+            "监控",
+            "查询",
+            "获取",
+            "检索",
+            "SNMP",
+            "Ping"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Telnet",
+            "Remote",
+            "Ping",
+            "Jitter",
+            "Retrieve",
+            "Fetch",
+            "Query",
+            "Get",
+            "Access",
+            "Network",
+            "Device",
+            "Telnet方式",
+            "远程",
+            "Ping",
+            "抖动",
+            "检索",
+            "获取",
+            "查询",
+            "访问",
+            "网络",
+            "设备"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Access Status",
+            "Connection Status",
+            "Online Status",
+            "Device Status",
+            "Status",
+            "Network Status",
+            "Connectivity",
+            "Accessibility",
+            "Availability",
+            "Reachability",
+            "连接状态",
+            "在线状态",
+            "设备状态",
+            "状态",
+            "网络状态",
+            "连接性",
+            "可访问性",
+            "可用性",
+            "可达性",
+            "连通性"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "OperatingState",
+            "OperationalStatus",
+            "SystemState",
+            "DeviceStatus",
+            "Runtime",
+            "Status",
+            "Health",
+            "Condition",
+            "Availability",
+            "State",
+            "设备状态",
+            "运行状况",
+            "操作状态",
+            "系统状态",
+            "状态",
+            "健康",
+            "条件",
+            "可用性",
+            "运行时间",
+            "状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MPLS LDP Neighbor Relationship Status",
+            "MPLS LDP Neighbor Status",
+            "LDP Neighbor Status",
+            "LDP Neighbor Relationship",
+            "MPLS LDP邻居状态",
+            "MPLS LDP邻居关系",
+            "LDP邻居状态",
+            "LDP邻居关系",
+            "MPLS LDP Neighbor Status",
+            "MPLS LDP Neighbor Relationship"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Session Count",
+            "Connections",
+            "Active Sessions",
+            "Session Quantity",
+            "Session Number",
+            "Session Total",
+            "Session Count",
+            "Connection Count",
+            "Session Amount",
+            "Session Volume",
+            "会话数量",
+            "连接数",
+            "活动会话",
+            "会话总数",
+            "会话数量",
+            "会话总量",
+            "会话计数",
+            "连接计数",
+            "会话量",
+            "会话容量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "OSPF Neighbor Relationship Status",
+            "OSPF Neighbor Status",
+            "OSPF Adjacency Status",
+            "OSPF Neighbor State",
+            "OSPF Neighbor Connectivity",
+            "OSPF Neighbor Connection",
+            "OSPF邻居关系状态",
+            "OSPF邻居状态",
+            "OSPF邻居连接状态",
+            "OSPF邻居连通性",
+            "OSPF邻居联通状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Network Device",
+            "Networking Equipment",
+            "Communication Device",
+            "Networking Gear",
+            "Network Hardware",
+            "Data Communication Device",
+            "Internet Device",
+            "Network Appliance",
+            "Network Tool",
+            "Networking Device",
+            "网络设备",
+            "网络设备",
+            "通信设备",
+            "网络设备",
+            "网络设备",
+            "数据通信设备",
+            "网络工具",
+            "网络设备",
+            "网络设备",
+            "网络设备"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Card Status",
+            "Module Status",
+            "Board Status",
+            "Hardware Status",
+            "Slot Status",
+            "Card Health",
+            "Module Health",
+            "Board Health",
+            "Hardware Health",
+            "Slot Health",
+            "卡状态",
+            "模块状态",
+            "板状态",
+            "硬件状态",
+            "插槽状态",
+            "卡健康",
+            "模块健康",
+            "板健康",
+            "硬件健康",
+            "插槽健康"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "CPU Master Usage",
+            "CPU Master Utilization",
+            "CPU Master Performance",
+            "CPU Master Load",
+            "CPU Master Usage Rate",
+            "CPU Master CPU Usage",
+            "CPU Master CPU Utilization",
+            "CPU Master CPU Performance",
+            "CPU Master CPU Load",
+            "CPU Master CPU Usage Rate",
+            "CPU Master使用率",
+            "CPU Master利用率",
+            "CPU Master性能",
+            "CPU Master负载",
+            "CPU Master使用率",
+            "CPU Master CPU使用率",
+            "CPU Master CPU利用率",
+            "CPU Master CPU性能",
+            "CPU Master CPU负载",
+            "CPU Master CPU使用率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Master-Slave Sync Info",
+            "Replication Information",
+            "Primary-Secondary Sync Data",
+            "Sync Data",
+            "Sync Information",
+            "Master-Slave Data",
+            "Primary-Secondary Info",
+            "Master-Slave Sync",
+            "Primary-Secondary Data",
+            "Sync Info",
+            "主从同步信息",
+            "主从复制信息",
+            "主备同步数据",
+            "同步数据",
+            "同步信息",
+            "主从数据",
+            "主备信息",
+            "主从同步",
+            "主备数据",
+            "同步资料"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "FanStatus",
+            "CoolerStatus",
+            "AirflowStatus",
+            "BlowerStatus",
+            "VentilatorStatus",
+            "FanHealth",
+            "FanCondition",
+            "FanInfo",
+            "FanAlert",
+            "FanControl",
+            "风扇状态",
+            "冷却器状态",
+            "空气流状态",
+            "风扇健康",
+            "风扇状况",
+            "风扇信息",
+            "风扇警报",
+            "风扇控制",
+            "通风口状态",
+            "散热器状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "PingStatus",
+            "PingState",
+            "RemotePingStatus",
+            "RPStatus",
+            "PingConnection",
+            "PingResult",
+            "PingResponse",
+            "PingFeedback",
+            "PingOutcome",
+            "PingHealth",
+            "远程Ping状态",
+            "远程Ping状况",
+            "Ping远程状态",
+            "RP状态",
+            "Ping连接",
+            "Ping结果",
+            "Ping响应",
+            "Ping反馈",
+            "Ping结果",
+            "Ping健康"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "BFD SNMP Support",
+            "BFD MIB Support",
+            "BFD Trap Support",
+            "BFD状态snmp方式支持",
+            "BFD MIB支持",
+            "BFD陷阱支持",
+            "BFD SNMP 支持",
+            "BFD MIB 支持",
+            "BFD 陷阱 支持"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "STP",
+            "SpanningTree",
+            "BridgeProtocolDataUnit",
+            "BPDU",
+            "SpanningTreeProtocol",
+            "LoopPrevention",
+            "LoopAvoidance",
+            "LoopProtection",
+            "SpanningTreeInformation",
+            "BridgeProtocolData"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Retrieve",
+            "Fetch",
+            "Get",
+            "Query",
+            "Search",
+            "Obtain",
+            "Fetch Memory Size Information",
+            "Retrieve Memory Size Details",
+            "Get Memory Capacity Data",
+            "Query RAM Size",
+            "Search for Memory Information",
+            "Obtain RAM Size",
+            "获取",
+            "检索",
+            "查询",
+            "获取",
+            "搜索",
+            "取得",
+            "获取内存大小信息",
+            "检索内存大小详情",
+            "获取内存容量数据",
+            "查询RAM大小",
+            "搜索内存信息",
+            "取得RAM大小"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Count",
+            "Number",
+            "Total",
+            "Sum",
+            "Quantity",
+            "Value",
+            "Statistic",
+            "Metric",
+            "Tally",
+            "Score",
+            "连接数",
+            "连接数量",
+            "总数",
+            "数量",
+            "值",
+            "统计",
+            "指标",
+            "计数",
+            "得分",
+            "分数"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Ethernet Interface Online Count",
+            "Network Device Title",
+            "Device Title",
+            "Interface Online Count",
+            "Ethernet Interface Online Number",
+            "Ethernet Interface Count",
+            "Network Interface Online Count",
+            "Network Interface Count",
+            "Interface Online Number",
+            "Interface Count",
+            "网络设备标题",
+            "设备标题",
+            "以太网接口在线数",
+            "网络接口在线数",
+            "网络设备名称",
+            "设备名称",
+            "接口在线数量",
+            "以太网接口数量",
+            "网络接口数量",
+            "接口数量"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Secure Shell",
+            "SSH",
+            "Remote Ping",
+            "Ping Jitter",
+            "Obtain",
+            "Fetch",
+            "Retrieve",
+            "Query",
+            "Get",
+            "Secure Shell",
+            "SSH",
+            "远程Ping",
+            "Ping抖动",
+            "获得",
+            "获取",
+            "检索",
+            "查询"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Ethernet Interface Availability",
+            "Ethernet Interface Uptime",
+            "Ethernet Interface Online Status",
+            "Ethernet Interface Connection Status",
+            "Ethernet Interface Availability",
+            "Ethernet Interface Uptime",
+            "Ethernet Interface Online Status",
+            "Ethernet Interface Connection Status",
+            "以太网接口可用性",
+            "以太网接口在线时间",
+            "以太网接口在线状态",
+            "以太网接口连接状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "SNMP Get Remote Ping Status",
+            "SNMP Query Remote Ping Status",
+            "SNMP Retrieve Remote Ping Status",
+            "SNMP Fetch Remote Ping Status",
+            "SNMP Obtain Remote Ping Status",
+            "SNMP Remote Ping Status",
+            "SNMP获取远程Ping状态",
+            "SNMP查询远程Ping状态",
+            "SNMP检索远程Ping状态",
+            "SNMP获取远程Ping状态",
+            "SNMP远程Ping状态"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Nodes Info",
+            "Node Information",
+            "Device List",
+            "Network Devices",
+            "Inventory",
+            "Topology",
+            "Device Information",
+            "System Overview",
+            "Connected Devices",
+            "Network Elements",
+            "节点信息",
+            "节点详情",
+            "设备列表",
+            "网络设备",
+            "清单",
+            "拓扑",
+            "设备信息",
+            "系统概述",
+            "已连接设备",
+            "网络元素"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Telnet Latency",
+            "Telnet Delay",
+            "Telnet Response Time",
+            "Telnet Round-trip Time",
+            "Telnet RTT",
+            "Telnet延迟",
+            "Telnet响应时间",
+            "Telnet往返时间",
+            "Telnet RTT"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "FanStatus",
+            "FanState",
+            "FanHealth",
+            "FanCondition",
+            "SystemFanStatus",
+            "SystemFanState",
+            "SystemFanHealth",
+            "SystemFanCondition",
+            "DeviceFanStatus",
+            "DeviceFanState",
+            "风扇状况",
+            "风扇运行状态",
+            "风扇健康状况",
+            "系统风扇状态",
+            "系统风扇健康",
+            "设备风扇状态",
+            "设备风扇状况"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "AccessStatusConsistentWithHost",
+            "UpdateAccessStatus",
+            "NetworkAppUnused",
+            "AccessStatusConsistentWithHost",
+            "UpdateAccessStatus",
+            "NetworkAppUnused",
+            "与主机一致",
+            "更新访问状态",
+            "网络应用未使用"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "Ping Response Time",
+            "Round-Trip Time",
+            "Latency",
+            "Network Delay",
+            "Ping RTT",
+            "Ping Latency",
+            "Echo Response Time",
+            "Network Response Time",
+            "Ping Round-Trip Time",
+            "Ping Echo Time",
+            "PING响应时间",
+            "往返时间",
+            "延迟",
+            "网络延迟",
+            "Ping RTT",
+            "Ping延迟",
+            "回显响应时间",
+            "网络响应时间",
+            "Ping往返时间",
+            "Ping回显时间"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "MEM Utilization",
+            "MEM Usage",
+            "Memory Master Utilization",
+            "Memory Master Usage",
+            "Memory Utilization",
+            "Memory Usage",
+            "MEM Master利用率",
+            "内存Master使用率",
+            "内存Master利用率",
+            "内存使用率"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    },
+    {
+        "metric_id": "NetworkDevice",
+        "synonyms": [
+            "TCP",
+            "ConnInfo",
+            "Connection",
+            "TCPConn",
+            "ConnectInfo",
+            "TCPConnect",
+            "ConnectionInfo",
+            "TCPConnection",
+            "ConnectingInfo",
+            "TCP连接信息",
+            "连接信息",
+            "TCP连接",
+            "连接详情",
+            "连接数据",
+            "TCP连接信息",
+            "连接状态",
+            "连接描述",
+            "连接属性",
+            "TCP连接详情",
+            "连接信息数据"
+        ],
+        "display_name": "Default Display Name",
+        "metadatas": {
+            "cit": "Default CIT",
+            "category": "Performance"
+        }
+    }
+]
